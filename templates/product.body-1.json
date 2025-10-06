@@ -72,37 +72,6 @@
         "background_gradient": ""
       }
     },
-    "multiple_images_with_text_9BTWdp": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_WmQVkh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_11.webp",
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_WmQVkh"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -330,7 +299,6 @@
   },
   "order": [
     "slideshow_M6AGEG",
-    "multiple_images_with_text_9BTWdp",
     "main",
     "tabs_ykjDmn",
     "faq_BxtLLR",
