@@ -33,18 +33,13 @@
             "show_taxes_notice": false
           }
         },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
         },
         "separator": {
           "type": "separator",
+          "disabled": true,
           "settings": {}
         },
         "description": {
@@ -59,7 +54,7 @@
             "hide_sold_out_variants": false,
             "stack_blocks": true,
             "selector_mode": "block",
-            "color_mode": "color",
+            "color_mode": "dropdown",
             "size_chart_page": ""
           }
         },
@@ -84,7 +79,6 @@
         "vendor",
         "badges",
         "price",
-        "rating",
         "payment_terms",
         "separator",
         "description",
