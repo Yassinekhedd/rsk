@@ -9,6 +9,37 @@
  */
 {
   "sections": {
+    "multiple_images_with_text_9BTWdp": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_WmQVkh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_11.webp",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_WmQVkh"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -31,6 +62,12 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
+          }
+        },
+        "liquid_6YyhyW": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
           }
         },
         "payment_terms": {
@@ -79,6 +116,7 @@
         "vendor",
         "badges",
         "price",
+        "liquid_6YyhyW",
         "payment_terms",
         "separator",
         "description",
@@ -102,6 +140,106 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "tabs_ykjDmn": {
+      "type": "tabs",
+      "blocks": {
+        "tab_FkhHhK": {
+          "type": "tab",
+          "settings": {
+            "title": "Beschreibung",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>",
+            "page": ""
+          }
+        },
+        "tab_QdQEMX": {
+          "type": "tab",
+          "settings": {
+            "title": "Lieferung & Versand",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_DFQ9jX": {
+          "type": "tab",
+          "settings": {
+            "title": "Rückgaberecht",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_FkhHhK",
+        "tab_QdQEMX",
+        "tab_DFQ9jX"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "small",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "faq_BxtLLR": {
+      "type": "faq",
+      "blocks": {
+        "item_XbqKdd": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_YG44pn": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_nQPjdc": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_XbqKdd",
+        "item_YG44pn",
+        "item_nQPjdc"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     },
     "related-products": {
@@ -128,7 +266,10 @@
     }
   },
   "order": [
+    "multiple_images_with_text_9BTWdp",
     "main",
+    "tabs_ykjDmn",
+    "faq_BxtLLR",
     "related-products"
   ]
 }
