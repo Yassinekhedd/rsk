@@ -72,6 +72,22 @@
         "background_gradient": ""
       }
     },
+    "scrolling_text_CA8imV": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Schluss mit Shapewear, die einengt, verrutscht und kaum Luft lässt.",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
     "video_slider_hLrMbP": {
       "type": "video-slider",
       "blocks": {
@@ -446,6 +462,7 @@
   },
   "order": [
     "slideshow_M6AGEG",
+    "scrolling_text_CA8imV",
     "video_slider_hLrMbP",
     "main",
     "tabs_ykjDmn",
