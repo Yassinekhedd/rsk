@@ -72,20 +72,44 @@
         "background_gradient": ""
       }
     },
-    "scrolling_text_CA8imV": {
-      "type": "scrolling-text",
-      "name": "Scrolling text",
+    "rich_text_9RPxdx": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_33tPYF": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_UKRgqK": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_TVrpCU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_33tPYF",
+        "heading_UKRgqK",
+        "richtext_TVrpCU"
+      ],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "text": "Schluss mit Shapewear, die einengt, verrutscht und kaum Luft lässt.",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 10,
-        "background": "",
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
+        "text_color": ""
       }
     },
     "video_slider_hLrMbP": {
@@ -462,7 +486,7 @@
   },
   "order": [
     "slideshow_M6AGEG",
-    "scrolling_text_CA8imV",
+    "rich_text_9RPxdx",
     "video_slider_hLrMbP",
     "main",
     "tabs_ykjDmn",
