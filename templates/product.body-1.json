@@ -359,8 +359,34 @@
             "heading_tag": "h2"
           }
         },
+        "section_store_block_review_summary_phekCR": {
+          "type": "shopify://apps/section-store/blocks/block-review-summary/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+          "settings": {
+            "content_align": "left",
+            "stars_count": 4.5,
+            "stars_size": 17,
+            "stars_gap": 2,
+            "stars_color": "#FFFFFF",
+            "stars_bg_color": "#f0c417",
+            "stars_bg_half_color": "#DDDDDD",
+            "first_text": "<p>Exellent</p>",
+            "first_text_size": 15,
+            "first_text_color": "#000000",
+            "second_text": "<p><strong>2,921</strong> reviews</p>",
+            "second_text_size": 13,
+            "second_text_color": "#000000",
+            "border": "none",
+            "border_thickness": 1,
+            "border_color": "#000000",
+            "radius": 0,
+            "background": "",
+            "padding_vertical": 6,
+            "padding_horizontal": 0
+          }
+        },
         "liquid_3yhj7n": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Customer Rating</title>\n  <style>\n    body.unique-body-Qaz123 {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      height: 100vh;\n      margin: 0;\n      background-color: #fff;\n    }\n\n    .unique-rating-container-Wsx456 {\n      display: flex;\n      align-items: center;\n      font-size: 14px;\n      color: #333; /* Metin rengi */\n    }\n\n    .unique-rating-stars-Edc789 {\n      display: flex;\n      margin-right: 8px;\n    }\n\n    .unique-rating-stars-Edc789 svg {\n      fill: #FFD700; /* Sarı yıldız rengi */\n      width: 16px; /* Küçültülmüş yıldız boyutu */\n      height: 16px; /* Küçültülmüş yıldız boyutu */\n      transition: transform 0.3s;\n    }\n\n    .unique-rating-stars-Edc789 svg:hover {\n      transform: scale(1.3); /* Üzerine gelince büyütme */\n    }\n\n    .unique-rating-text-Rfv012 {\n      font-size: 14px;\n      color: #333; /* Metin rengi */\n    }\n  </style>\n</head>\n<body class=\"unique-body-Qaz123\">\n\n<div class=\"unique-rating-container-Wsx456\">\n  <div class=\"unique-rating-stars-Edc789\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431 8.144 1.18-5.906 5.434 1.391 8.079L12 18.896l-7.297 3.843 1.391-8.079-5.906-5.434 8.144-1.18z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431 8.144 1.18-5.906 5.434 1.391 8.079L12 18.896l-7.297 3.843 1.391-8.079-5.906-5.434 8.144-1.18z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431 8.144 1.18-5.906 5.434 1.391 8.079L12 18.896l-7.297 3.843 1.391-8.079-5.906-5.434 8.144-1.18z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431 8.144 1.18-5.906 5.434 1.391 8.079L12 18.896l-7.297 3.843 1.391-8.079-5.906-5.434 8.144-1.18z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431 8.144 1.18-5.906 5.434 1.391 8.079L12 18.896l-7.297 3.843 1.391-8.079-5.906-5.434 8.144-1.18z\"/></svg>\n  </div>\n  <span class=\"unique-rating-text-Rfv012\">Rated 4.8/5 by 1500+ Customers!</span>\n</div>\n\n</body>\n</html>"
           }
@@ -402,8 +428,49 @@
         },
         "liquid_8Nrypj": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Product Features</title>\n    <style>\n        :root {\n            --text-color: #333;\n            --hover-bg-color: #f1f1f1;\n            --highlight-color: #000;\n            --icon-color: #007BFF;\n            --transition-duration: 0.3s;\n            --font-family: 'Helvetica Neue', Arial, sans-serif;\n        }\n\n        body.bdy-a123 {\n            font-family: var(--font-family);\n            display: flex;\n            justify-content: center;\n            align-items: flex-start;\n            height: 100vh;\n            margin: 0;\n            background: #f0f0f0;\n            padding: 20px;\n        }\n\n        .container-x987 {\n            width: 100%;\n            max-width: 400px;\n            display: flex;\n            flex-direction: column;\n            gap: 10px;\n        }\n\n        .item-z456 {\n            display: flex;\n            align-items: center;\n            padding: 5px 10px;\n            border-radius: 8px;\n            transition: background-color var(--transition-duration) ease, transform var(--transition-duration) ease;\n            cursor: default;\n            background: var(--hover-bg-color);\n        }\n\n        .item-z456:hover {\n            background-color: #e0e0e0;\n            transform: translateX(10px);\n        }\n\n        .icon-w321 {\n            width: 24px;\n            height: 24px;\n            margin-right: 10px;\n            transition: transform var(--transition-duration) ease;\n            fill: var(--icon-color);\n        }\n\n        .item-z456:hover .icon-w321 {\n            transform: rotate(360deg);\n        }\n\n        .text-v654 {\n            font-size: 14px;\n            color: var(--text-color);\n            transition: color var(--transition-duration) ease;\n        }\n\n        .item-z456:hover .text-v654 {\n            color: var(--highlight-color);\n        }\n\n        @media (max-width: 600px) {\n            .text-v654 {\n                font-size: 12px;\n            }\n\n            .icon-w321 {\n                width: 20px;\n                height: 20px;\n                margin-right: 8px;\n            }\n        }\n    </style>\n</head>\n<body class=\"bdy-a123\">\n    <div class=\"container-x987\">\n        <div class=\"item-z456\">\n            <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"#000000\" class=\"icon-w321\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <defs> <path id=\"check-a\" d=\"M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z\"></path> <path id=\"check-c\" d=\"M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z\"></path> </defs> <g fill=\"none\" fill-rule=\"evenodd\" transform=\"rotate(-90 11 7)\"> <g transform=\"translate(1 1)\"> <mask id=\"check-b\" fill=\"#ffffff\"> <use xlink:href=\"#check-a\"></use> </mask> <use fill=\"#D8D8D8\" fill-rule=\"nonzero\" xlink:href=\"#check-a\"></use> <g fill=\"#9effb1\" mask=\"url(#check-b)\"> <rect width=\"24\" height=\"24\" transform=\"translate(-7 -5)\"></rect> </g> </g> <mask id=\"check-d\" fill=\"#ffffff\"> <use xlink:href=\"#check-c\"></use> </mask> <use fill=\"#000000\" fill-rule=\"nonzero\" xlink:href=\"#check-c\"></use> <g fill=\"#9458ff\" mask=\"url(#check-d)\"> <rect width=\"24\" height=\"24\" transform=\"translate(-6 -4)\"></rect> </g> </g> </g></svg>\n            <div class=\"text-v654\">Easily Changeable 6 Different Heads</div>\n        </div>\n        <div class=\"item-z456\">\n            <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"#000000\" class=\"icon-w321\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <defs> <path id=\"check-a\" d=\"M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z\"></path> <path id=\"check-c\" d=\"M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z\"></path> </defs> <g fill=\"none\" fill-rule=\"evenodd\" transform=\"rotate(-90 11 7)\"> <g transform=\"translate(1 1)\"> <mask id=\"check-b\" fill=\"#ffffff\"> <use xlink:href=\"#check-a\"></use> </mask> <use fill=\"#D8D8D8\" fill-rule=\"nonzero\" xlink:href=\"#check-a\"></use> <g fill=\"#9effb1\" mask=\"url(#check-b)\"> <rect width=\"24\" height=\"24\" transform=\"translate(-7 -5)\"></rect> </g> </g> <mask id=\"check-d\" fill=\"#ffffff\"> <use xlink:href=\"#check-c\"></use> </mask> <use fill=\"#000000\" fill-rule=\"nonzero\" xlink:href=\"#check-c\"></use> <g fill=\"#9458ff\" mask=\"url(#check-d)\"> <rect width=\"24\" height=\"24\" transform=\"translate(-6 -4)\"></rect> </g> </g> </g></svg>\n            <div class=\"text-v654\">Waterproof Charging Unit</div>\n        </div>\n        <div class=\"item-z456\">\n            <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" fill=\"#000000\" class=\"icon-w321\"><g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> <defs> <path id=\"check-a\" d=\"M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z\"></path> <path id=\"check-c\" d=\"M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z\"></path> </defs> <g fill=\"none\" fill-rule=\"evenodd\" transform=\"rotate(-90 11 7)\"> <g transform=\"translate(1 1)\"> <mask id=\"check-b\" fill=\"#ffffff\"> <use xlink:href=\"#check-a\"></use> </mask> <use fill=\"#D8D8D8\" fill-rule=\"nonzero\" xlink:href=\"#check-a\"></use> <g fill=\"#9effb1\" mask=\"url(#check-b)\"> <rect width=\"24\" height=\"24\" transform=\"translate(-7 -5)\"></rect> </g> </g> <mask id=\"check-d\" fill=\"#ffffff\"> <use xlink:href=\"#check-c\"></use> </mask> <use fill=\"#000000\" fill-rule=\"nonzero\" xlink:href=\"#check-c\"></use> <g fill=\"#9458ff\" mask=\"url(#check-d)\"> <rect width=\"24\" height=\"24\" transform=\"translate(-6 -4)\"></rect> </g> </g> </g></svg>\n            <div class=\"text-v654\">3.5 hours continuous operation time</div>\n        </div>\n    </div>\n</body>\n</html>"
+          }
+        },
+        "section_store_block_benefits_list_F8XW7n": {
+          "type": "shopify://apps/section-store/blocks/block-benefits-list/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+          "settings": {
+            "items_gap": 0,
+            "first_text": "<p><strong>Soforteffekt</strong>: -3 bis 5 cm Taille in 30 Sekunden<br/><br/></p>",
+            "second_text": "<p><strong>16h Komfort</strong>: Verrutscht nie, auch nach langem Tag<br/><br/></p>",
+            "third_text": "<p><strong>Völlig unsichtbar</strong>: Nur 2 mm dünn unter allen Outfits<br/><br/></p>",
+            "fourth_text": "",
+            "icon_size": 20,
+            "icon_color": "#000000",
+            "text_size": 13,
+            "text_color": "#000000",
+            "content_align": "left",
+            "border": "none",
+            "border_thickness": 1,
+            "border_color": "#000000",
+            "radius": 0,
+            "background": "",
+            "padding_vertical": 0,
+            "padding_horizontal": 0
+          }
+        },
+        "section_store_block_social_proof_jydPhe": {
+          "type": "shopify://apps/section-store/blocks/block-social-proof/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+          "settings": {
+            "use_carousel": true,
+            "slide_icon_size": 28,
+            "text": "<p><strong>Davie</strong> ✓, <strong>Mark</strong> ✓ and 1500+ others love our products!</p>",
+            "text_size": 11,
+            "text_color": "#000000",
+            "symbols_color": "#42A5F5",
+            "border": "solid",
+            "border_thickness": 1,
+            "border_color": "#D7D7D7",
+            "radius": 16,
+            "bg_color": "#F6F6F6",
+            "padding_vertical": 12,
+            "padding_horizontal": 16
           }
         },
         "separator_axaXKi": {
@@ -438,6 +505,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "liquid_fEKRFp": {
@@ -457,8 +525,35 @@
             "payment_button_text_color": ""
           }
         },
+        "section_store_block_benefits_boxes_2_mYAHjX": {
+          "type": "shopify://apps/section-store/blocks/block-benefits-boxes-2/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+          "settings": {
+            "cards_design": "vertical",
+            "cards_row": "3",
+            "card_align": "center",
+            "first_icon": "credit_card",
+            "first_title": "Pay later",
+            "first_sub_title": "up to 60 days",
+            "second_icon": "shield_check",
+            "second_title": "Quality",
+            "second_sub_title": "no‑hassle fixes",
+            "third_icon": "earth",
+            "third_title": "Shipping",
+            "third_sub_title": "worldwide free",
+            "all_size": 19,
+            "all_color": "#000000",
+            "border": "none",
+            "border_thickness": 1,
+            "border_color": "#000000",
+            "radius": 0,
+            "cards_bg_color": "",
+            "padding_vertical": 0,
+            "padding_horizontal": 0
+          }
+        },
         "liquid_LqETAx": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Product Badges</title>\n    <style>\n        .unique-badge-container-xyz123 {\n            display: flex;\n            gap: 5px;\n        }\n\n        .unique-badge-abc456 {\n            display: flex;\n            align-items: center;\n            padding: 3px 7px;\n            border-radius: 12px;\n            font-size: 10px;\n            font-weight: bold;\n            color: #000;\n            background-color: rgba(0, 0, 0, 0.05);\n        }\n\n        .unique-badge-abc456 img {\n            margin-right: 3px;\n            filter: brightness(0.5);\n        }\n    </style>\n</head>\n<body class=\"unique-body-789def\">\n    <div class=\"unique-badge-container-xyz123\">\n        <div class=\"unique-badge-abc456\">\n            <img src=\"https://www.svgrepo.com/show/474295/plane.svg\" alt=\"Fast Shipping\" width=\"12\" height=\"12\">\n            Fast Shipping\n        </div>\n        <div class=\"unique-badge-abc456\">\n            <img src=\"https://www.svgrepo.com/show/486865/support.svg\" alt=\"24/7 Support\" width=\"12\" height=\"12\">\n            24/7 Support\n        </div>\n        <div class=\"unique-badge-abc456\">\n            <img src=\"https://www.svgrepo.com/show/457232/return.svg\" alt=\"30 Days Return\" width=\"12\" height=\"12\">\n            30 Days Return\n        </div>\n    </div>\n</body>\n</html>"
           }
@@ -466,12 +561,15 @@
       },
       "block_order": [
         "title",
+        "section_store_block_review_summary_phekCR",
         "liquid_3yhj7n",
         "badges",
         "price",
         "section_store_block_coupon_code_cyTHaR",
         "separator_wiYEyz",
         "liquid_8Nrypj",
+        "section_store_block_benefits_list_F8XW7n",
+        "section_store_block_social_proof_jydPhe",
         "separator_axaXKi",
         "liquid_6YyhyW",
         "payment_terms",
@@ -480,6 +578,7 @@
         "quantity_selector",
         "liquid_fEKRFp",
         "buy_buttons",
+        "section_store_block_benefits_boxes_2_mYAHjX",
         "liquid_LqETAx"
       ],
       "settings": {
@@ -498,6 +597,22 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "1759847344c059c555": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     },
     "1759846999165cca8a": {
@@ -782,6 +897,7 @@
     "video_slider_hLrMbP",
     "impact_text_RxqtdV",
     "main",
+    "1759847344c059c555",
     "1759846999165cca8a",
     "tabs_ykjDmn",
     "slideshow_TNAbrr",
