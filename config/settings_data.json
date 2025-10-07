@@ -156,8 +156,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      "#shopify-cookie-banner, .shopify-policy-banner, .cookie-consent, #cookie-banner {display: none !important;}"
-    ]
+    "custom_css": []
   }
 }
