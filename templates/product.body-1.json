@@ -177,6 +177,127 @@
         "background_gradient": ""
       }
     },
+    "video_grid_Bywrbb": {
+      "type": "Video-grid",
+      "blocks": {
+        "video_dQQmYb": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/8ff60853751246138c71e4de009eb51a.HD-1080p-7.2Mbps-51371041.mov",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "info": "",
+            "url": ""
+          }
+        },
+        "video_FGTKiq": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/352d77e65eb445e9a02d0dcfcfe51004.HD-1080p-7.2Mbps-41029925.mov",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "info": "",
+            "url": ""
+          }
+        },
+        "video_NWxzeD": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Vidéo 2025-10-07 à 22.08.51_499b04c5.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "info": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_dQQmYb",
+        "video_FGTKiq",
+        "video_NWxzeD"
+      ],
+      "name": "SS - Video Grid Socials #3",
+      "settings": {
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 26,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "sub_heading": "",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 18,
+        "sub_heading_size_mobile": 0,
+        "sub_heading_height": 150,
+        "sub_heading_align": "center",
+        "sub_heading_align_mobile": "center",
+        "sub_heading_mt": 24,
+        "sub_heading_mt_mobile": 0,
+        "slider_view": 5,
+        "slider_view_mobile": 2,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "slider_mt": 24,
+        "slider_mt_mobile": 0,
+        "card_radius": 6,
+        "card_border_thickness": 0,
+        "video_ratio": "portrait",
+        "video_ratio_mobile": "portrait",
+        "info_custom": false,
+        "info_font": "josefin_sans_n4",
+        "info_size": 15,
+        "info_size_mobile": 2,
+        "info_height": 50,
+        "info_align": "left",
+        "info_align_mobile": "left",
+        "arrow_size": 10,
+        "arrow_size_mobile": 10,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 5,
+        "arrow_border_thickness": 0,
+        "arrow_radius": 14,
+        "arrow_hover_effect": "color",
+        "arrow_show_desktop": false,
+        "arrow_show_mobile": false,
+        "action_size": 48,
+        "action_size_mobile": 10,
+        "action_icon_size": 28,
+        "action_icon_size_mobile": 10,
+        "action_border_thickness": 0,
+        "card_border_color": "#000000",
+        "info_color": "#FFFFFF",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#FFFFFF",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#555555",
+        "arrow_border_color": "#ffffff",
+        "arrow_border_hover_color": "#555555",
+        "action_color": "#FFFFFF",
+        "action_hover_color": "#FFFFFF",
+        "action_bg_color": "#FFFFFF",
+        "action_bg_hover_color": "#FFFFFF",
+        "action_border_color": "#FFFFFF",
+        "action_border_hover_color": "#FFFFFF",
+        "heading_color": "#000000",
+        "sub_heading_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 4,
+        "padding_bottom": 8,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 90,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "video_slider_AYrVbh": {
       "type": "video-slider",
       "blocks": {
@@ -223,6 +344,7 @@
         "slide_p3ffVw",
         "slide_XT7AAh"
       ],
+      "disabled": true,
       "name": "SS - Video Slider",
       "settings": {
         "slider_view": 2,
@@ -1169,6 +1291,7 @@
     "slideshow_M6AGEG",
     "scrolling_logo_HFPe6g",
     "slideshow_NPeJza",
+    "video_grid_Bywrbb",
     "video_slider_AYrVbh",
     "slideshow_9zgxEd",
     "instagram_fRaFXh",
