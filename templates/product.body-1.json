@@ -739,6 +739,142 @@
         "review_button_text_color": "#ffffff"
       }
     },
+    "video_slider_AYrVbh": {
+      "type": "video-slider",
+      "blocks": {
+        "slide_BGiNyc": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/8ff60853751246138c71e4de009eb51a.HD-1080p-7.2Mbps-51371041.mov",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "stars_count": 5
+          }
+        },
+        "slide_WTQ4cy": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/352d77e65eb445e9a02d0dcfcfe51004.HD-1080p-7.2Mbps-41029925.mov",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "stars_count": 5
+          }
+        },
+        "slide_p3ffVw": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Vidéo 2025-10-07 à 22.08.51_499b04c5.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "stars_count": 5
+          }
+        },
+        "slide_XT7AAh": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "New Slide",
+            "stars_count": 5
+          }
+        }
+      },
+      "block_order": [
+        "slide_BGiNyc",
+        "slide_WTQ4cy",
+        "slide_p3ffVw",
+        "slide_XT7AAh"
+      ],
+      "name": "SS - Video Slider",
+      "settings": {
+        "slider_view": 4,
+        "slider_view_mobile": 1.9,
+        "slider_gap": 10,
+        "slider_gap_mobile": 10,
+        "slider_rotate": 0,
+        "card_padding_vertical": 20,
+        "card_padding_vertical_mobile": 20,
+        "card_padding_horizontal": 20,
+        "card_padding_horizontal_mobile": 20,
+        "card_radius": 16,
+        "card_border_thickness": 0,
+        "card_shadow": false,
+        "card_ratio": "portrait",
+        "card_ratio_mobile": "portrait",
+        "card_overlay": 0.4,
+        "content_horizontal_position": "center",
+        "content_horizontal_position_mobile": "center",
+        "content_vertical_position": "end",
+        "content_vertical_position_mobile": "end",
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 16,
+        "title_size_mobile": 16,
+        "title_height": 100,
+        "stars_size": 16,
+        "stars_size_mobile": 16,
+        "stars_mt": 16,
+        "stars_mt_mobile": 16,
+        "hide_stars": false,
+        "use_action": true,
+        "action_size": 40,
+        "action_size_mobile": 40,
+        "action_icon_size": 24,
+        "action_icon_size_mobile": 24,
+        "action_border_thickness": 0,
+        "use_sound": true,
+        "sound_size": 40,
+        "sound_size_mobile": 40,
+        "sound_icon_size": 24,
+        "sound_icon_size_mobile": 24,
+        "sound_border_thickness": 0,
+        "arrow_size": 48,
+        "arrow_size_mobile": 48,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 0,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "color",
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "card_overlay_color": "#000000",
+        "title_color": "#FFFFFF",
+        "stars_color": "#FFFFFF",
+        "action_color": "#FFFFFF",
+        "action_hover_color": "#FFFFFF",
+        "action_bg_color": "#FFFFFF",
+        "action_bg_hover_color": "#FFFFFF",
+        "action_border_color": "#FFFFFF",
+        "action_border_hover_color": "#FFFFFF",
+        "sound_icon_color": "#FFFFFF",
+        "sound_icon_hover_color": "#FFFFFF",
+        "sound_bg_color": "#FFFFFF",
+        "sound_bg_hover_color": "#FFFFFF",
+        "sound_border_color": "#FFFFFF",
+        "sound_border_hover_color": "#FFFFFF",
+        "arrow_color": "#FFFFFF",
+        "arrow_hover_color": "#434343",
+        "arrow_bg_color": "#434343",
+        "arrow_bg_hover_color": "#FFFFFF",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "tabs_ykjDmn": {
       "type": "tabs",
       "blocks": {
@@ -997,6 +1133,7 @@
     "main",
     "1759847344c059c555",
     "1759846999165cca8a",
+    "video_slider_AYrVbh",
     "tabs_ykjDmn",
     "footer_white_8A9hkp",
     "slideshow_TNAbrr",
