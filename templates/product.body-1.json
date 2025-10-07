@@ -207,9 +207,16 @@
             "stars_count": 0
           }
         },
+        "slide_j7xTF6": {
+          "type": "slide",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "New Slide",
+            "stars_count": 5
+          }
+        },
         "slide_XT7AAh": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "New Slide",
@@ -221,6 +228,7 @@
         "slide_WTQ4cy",
         "slide_BGiNyc",
         "slide_p3ffVw",
+        "slide_j7xTF6",
         "slide_XT7AAh"
       ],
       "name": "SS - Video Slider",
