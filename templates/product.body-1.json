@@ -333,23 +333,6 @@
     },
     "impact_text_RxqtdV": {
       "type": "impact-text",
-      "blocks": {
-        "item_GWwkUN": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2.6
-          }
-        }
-      },
-      "block_order": [
-        "item_GWwkUN"
-      ],
       "name": "Impact text",
       "settings": {
         "full_width": true,
@@ -365,48 +348,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "slideshow_TNAbrr": {
-      "type": "slideshow",
-      "blocks": {
-        "image_8UHUqN": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.58.33_c8dc058e.jpg",
-            "mobile_image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.58.33_c8dc058e.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 12,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_8UHUqN"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#F2F2F2",
-        "background_gradient": ""
       }
     },
     "main": {
@@ -530,11 +471,53 @@
         "enable_video_looping": true,
         "enable_image_zoom": false,
         "max_image_zoom_level": 3,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "slideshow_TNAbrr": {
+      "type": "slideshow",
+      "blocks": {
+        "image_8UHUqN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.58.33_c8dc058e.jpg",
+            "mobile_image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.58.33_c8dc058e.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 12,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_8UHUqN"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
       }
     },
     "tabs_ykjDmn": {
@@ -667,8 +650,8 @@
     "riche_text_8rhWN6",
     "video_slider_hLrMbP",
     "impact_text_RxqtdV",
-    "slideshow_TNAbrr",
     "main",
+    "slideshow_TNAbrr",
     "tabs_ykjDmn",
     "faq_BxtLLR",
     "related-products"
