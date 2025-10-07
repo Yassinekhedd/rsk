@@ -28,7 +28,6 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
     {%- endif -%}
 
-    {%- comment -%}Few prefetch to increase performance on commonly used third-parties{%- endcomment -%}
     <link rel="preconnect" href="https://cdn.shopify.com">
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
@@ -67,6 +66,59 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       {%- if settings.cart_type == 'popover' -%}
         <cart-notification-drawer open-from="bottom" class="quick-buy-drawer drawer"></cart-notification-drawer>
       {%- endif -%}
+
+      <!-- 🔥 HEADER D’URGENCE 🔥 -->
+      <header class="emergency-header" role="banner">
+        <div class="emh-container">
+          <div class="emh-left">
+            <a href="{{ routes.root_url }}" class="emh-logo" aria-label="{{ shop.name }}">
+              {% if settings.logo != blank %}
+                <img src="{{ settings.logo | image_url: width: 220 }}" alt="{{ shop.name | escape }}">
+              {% else %}
+                <span class="emh-logo-text">{{ shop.name }}</span>
+              {% endif %}
+            </a>
+          </div>
+
+          <div class="emh-center">
+            <form class="emh-search" action="{{ routes.search_url }}" method="get" role="search">
+              <input type="search" name="q" placeholder="Rechercher..." aria-label="Search">
+              <button type="submit">🔍</button>
+            </form>
+          </div>
+
+          <div class="emh-right">
+            <a class="emh-cart" href="{{ routes.cart_url }}" aria-label="Panier">
+              🛒 <span class="emh-cart-count">{{ cart.item_count }}</span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <style>
+        .emergency-header {
+          position: sticky; top: 0; z-index: 99; background: #fff;
+          border-bottom: 1px solid rgba(0,0,0,0.1); padding: 8px 16px;
+        }
+        .emh-container {
+          max-width: 1200px; margin: 0 auto;
+          display: flex; align-items: center; justify-content: space-between;
+        }
+        .emh-logo-text { font-weight: bold; font-size: 18px; color: #000; }
+        .emh-search { display: flex; gap: 6px; align-items: center; }
+        .emh-search input {
+          padding: 6px 10px; border: 1px solid #ccc; border-radius: 4px; min-width: 200px;
+        }
+        .emh-search button {
+          background: #000; color: #fff; border: none; padding: 6px 10px; border-radius: 4px; cursor: pointer;
+        }
+        .emh-cart { text-decoration: none; color: #000; font-weight: bold; position: relative; }
+        .emh-cart-count {
+          background: #000; color: #fff; border-radius: 10px;
+          padding: 2px 6px; font-size: 12px; position: relative; top: -1px;
+        }
+      </style>
+      <!-- 🔥 FIN DU HEADER D’URGENCE -->
     {%- endif -%}
 
     {%- if request.page_type == 'customers/account' or request.page_type == 'customers/order' or request.page_type == 'customers/addresses' -%}
@@ -76,10 +128,6 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <main role="main" id="main" class="anchor">
       {{ content_for_layout }}
 
-      {%- comment -%}
-      IMPLEMENTATION NOTE: due to the very complex logic of margin/padding collapsing in Impact, the footer group is
-      added into the main element to ensure that dynamic sections added into the footer group are properly laid out.
-      {%- endcomment -%}
       {%- if request.page_type != 'password' -%}
         {%- sections 'footer-group' -%}
       {%- endif -%}
