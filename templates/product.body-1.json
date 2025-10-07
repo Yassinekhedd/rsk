@@ -189,15 +189,6 @@
             "stars_count": 0
           }
         },
-        "slide_BGiNyc": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/8ff60853751246138c71e4de009eb51a.HD-1080p-7.2Mbps-51371041.mov",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "",
-            "stars_count": 0
-          }
-        },
         "slide_p3ffVw": {
           "type": "slide",
           "settings": {
@@ -207,29 +198,50 @@
             "stars_count": 0
           }
         },
+        "slide_BGiNyc": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/8ff60853751246138c71e4de009eb51a.HD-1080p-7.2Mbps-51371041.mov",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "stars_count": 0
+          }
+        },
         "slide_j7xTF6": {
           "type": "slide",
           "settings": {
+            "video": "shopify://files/videos/WhatsApp Vidéo 2025-10-07 à 22.08.51_499b04c5.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
-            "stars_count": 5
+            "title": "",
+            "stars_count": 0
           }
         },
         "slide_XT7AAh": {
           "type": "slide",
           "settings": {
+            "video": "shopify://files/videos/8ff60853751246138c71e4de009eb51a.HD-1080p-7.2Mbps-51371041.mov",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
-            "stars_count": 5
+            "title": "",
+            "stars_count": 0
+          }
+        },
+        "slide_9f4qgf": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/352d77e65eb445e9a02d0dcfcfe51004.HD-1080p-7.2Mbps-41029925.mov",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "stars_count": 0
           }
         }
       },
       "block_order": [
         "slide_WTQ4cy",
-        "slide_BGiNyc",
         "slide_p3ffVw",
+        "slide_BGiNyc",
         "slide_j7xTF6",
-        "slide_XT7AAh"
+        "slide_XT7AAh",
+        "slide_9f4qgf"
       ],
       "name": "SS - Video Slider",
       "settings": {
