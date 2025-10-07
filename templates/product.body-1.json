@@ -375,6 +375,27 @@
             "show_taxes_notice": false
           }
         },
+        "section_store_block_coupon_code_cyTHaR": {
+          "type": "shopify://apps/section-store/blocks/block-coupon-code/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+          "settings": {
+            "top_text": "Now: 10% OFF",
+            "bottom_text": "<p>Code: 10<em>OFF</em></p>",
+            "text_size": 15,
+            "text_color": "#FFFFFF",
+            "coupon": "10SALE",
+            "copy_text": "Copy",
+            "copied_text": "Copied!",
+            "button_color": "#000000",
+            "border": "none",
+            "border_thickness": 1,
+            "border_color": "#000000",
+            "radius": 18,
+            "bg_color": "#000000",
+            "padding_vertical": 4,
+            "padding_horizontal": 0,
+            "custom_css": ""
+          }
+        },
         "separator_wiYEyz": {
           "type": "separator",
           "settings": {}
@@ -448,6 +469,7 @@
         "liquid_3yhj7n",
         "badges",
         "price",
+        "section_store_block_coupon_code_cyTHaR",
         "separator_wiYEyz",
         "liquid_8Nrypj",
         "separator_axaXKi",
@@ -718,6 +740,38 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
+    },
+    "1759847027c47a3e6c": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "1759847141eb15e389": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -734,6 +788,8 @@
     "faq_BxtLLR",
     "related-products",
     "17598469456ed65186",
-    "175984695742a8b177"
+    "175984695742a8b177",
+    "1759847027c47a3e6c",
+    "1759847141eb15e389"
   ]
 }
