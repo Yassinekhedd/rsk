@@ -208,7 +208,7 @@
             "video": "shopify://files/videos/352d77e65eb445e9a02d0dcfcfe51004.HD-1080p-7.2Mbps-41029925.mov",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "",
-            "stars_count": 5
+            "stars_count": 0
           }
         },
         "slide_BGiNyc": {
@@ -217,7 +217,7 @@
             "video": "shopify://files/videos/8ff60853751246138c71e4de009eb51a.HD-1080p-7.2Mbps-51371041.mov",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "",
-            "stars_count": 5
+            "stars_count": 0
           }
         },
         "slide_p3ffVw": {
@@ -226,7 +226,7 @@
             "video": "shopify://files/videos/WhatsApp Vidéo 2025-10-07 à 22.08.51_499b04c5.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "",
-            "stars_count": 5
+            "stars_count": 0
           }
         },
         "slide_XT7AAh": {
@@ -257,7 +257,7 @@
         "card_padding_vertical_mobile": 20,
         "card_padding_horizontal": 20,
         "card_padding_horizontal_mobile": 20,
-        "card_radius": 16,
+        "card_radius": 0,
         "card_border_thickness": 0,
         "card_shadow": false,
         "card_ratio": "portrait",
@@ -272,20 +272,20 @@
         "title_size": 16,
         "title_size_mobile": 16,
         "title_height": 100,
-        "stars_size": 16,
-        "stars_size_mobile": 16,
-        "stars_mt": 16,
-        "stars_mt_mobile": 16,
+        "stars_size": 10,
+        "stars_size_mobile": 24,
+        "stars_mt": 10,
+        "stars_mt_mobile": 10,
         "hide_stars": false,
-        "use_action": true,
-        "action_size": 40,
-        "action_size_mobile": 40,
-        "action_icon_size": 24,
-        "action_icon_size_mobile": 24,
+        "use_action": false,
+        "action_size": 10,
+        "action_size_mobile": 10,
+        "action_icon_size": 10,
+        "action_icon_size_mobile": 10,
         "action_border_thickness": 0,
-        "use_sound": true,
+        "use_sound": false,
         "sound_size": 40,
-        "sound_size_mobile": 40,
+        "sound_size_mobile": 10,
         "sound_icon_size": 24,
         "sound_icon_size_mobile": 24,
         "sound_border_thickness": 0,
