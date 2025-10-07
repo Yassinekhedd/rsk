@@ -838,6 +838,7 @@
         },
         "section_store_block_product_info_wrapper_3zE6Gy": {
           "type": "shopify://apps/section-store/blocks/block-product-info-wrapper/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+          "disabled": true,
           "settings": {
             "auto_detect_product_info_container": true,
             "product_info_container_selector": "",
