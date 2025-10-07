@@ -72,6 +72,91 @@
         "background_gradient": ""
       }
     },
+    "scrolling_logo_HFPe6g": {
+      "type": "Scrolling-logo",
+      "blocks": {
+        "slide_afCTwM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/r29_2.avif",
+            "link": ""
+          }
+        },
+        "slide_3hryhQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/inall.avif",
+            "link": ""
+          }
+        },
+        "slide_yhU4Gm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fast_2.avif",
+            "link": ""
+          }
+        },
+        "slide_c7GBUk": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "slide_dyfipn": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "slide_wEyqTh": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_afCTwM",
+        "slide_3hryhQ",
+        "slide_yhU4Gm",
+        "slide_c7GBUk",
+        "slide_dyfipn",
+        "slide_wEyqTh"
+      ],
+      "name": "SS - Scrolling Logo Cloud",
+      "settings": {
+        "ss-title": "",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 34,
+        "header_align": "center",
+        "scrolling_velocity": 10,
+        "pause_hover": false,
+        "shadow": false,
+        "sliders_mt": 0,
+        "logo_padding_top": 0,
+        "logo_padding_bottom": 0,
+        "slider_gap": 30,
+        "slider_gap_mobile": 30,
+        "slider_direction": "left",
+        "icon_width": 100,
+        "header_color": "#121212",
+        "border_color": "#ffffff",
+        "background-color": "#ffffff",
+        "slider-background-color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "slideshow_7cWjYU": {
       "type": "slideshow",
       "blocks": {
@@ -219,9 +304,9 @@
             "stars_count": 4.5,
             "stars_size": 17,
             "stars_gap": 2,
-            "stars_color": "#FFFFFF",
+            "stars_color": "#ffffff",
             "stars_bg_color": "#f0c417",
-            "stars_bg_half_color": "#DDDDDD",
+            "stars_bg_half_color": "#dddddd",
             "first_text": "<p>Exellent</p>",
             "first_text_size": 15,
             "first_text_color": "#000000",
@@ -260,7 +345,7 @@
             "top_text": "Now: 10% OFF",
             "bottom_text": "<p>Code: 10<em>OFF</em></p>",
             "text_size": 15,
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "coupon": "10SALE",
             "copy_text": "Copy",
             "copied_text": "Copied!",
@@ -316,12 +401,12 @@
             "text": "<p><strong>Davie</strong> ✓, <strong>Mark</strong> ✓ and 1500+ others love our products!</p>",
             "text_size": 11,
             "text_color": "#000000",
-            "symbols_color": "#42A5F5",
+            "symbols_color": "#42a5f5",
             "border": "solid",
             "border_thickness": 1,
-            "border_color": "#D7D7D7",
+            "border_color": "#d7d7d7",
             "radius": 16,
-            "bg_color": "#F6F6F6",
+            "bg_color": "#f6f6f6",
             "padding_vertical": 12,
             "padding_horizontal": 16
           }
@@ -807,12 +892,12 @@
             "use_header": false,
             "header_font_size": 16,
             "header_bg_color": "#000000",
-            "header_text_color": "#FFFFFF",
+            "header_text_color": "#ffffff",
             "header_text_align": "center",
             "header_text": "♥︎ 9 of 10 recommend to friends",
             "border_style": "solid",
             "border_width": 0.5,
-            "border_color": "#DFDFDF",
+            "border_color": "#dfdfdf",
             "border_radius": 12,
             "background_color": "",
             "shadow": "shadow_4",
@@ -887,10 +972,114 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
+    },
+    "enbas_RWLtiJ": {
+      "type": "enbas",
+      "name": "SS - Footer #2",
+      "settings": {
+        "logo": "shopify://shop_images/N_2_8c39971c-75f1-4f66-8638-b87076e372a8.png",
+        "logo_width": 220,
+        "logo_width_mobile": 220,
+        "first_menu_title": "Featured Links",
+        "first_menu": "",
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 16,
+        "title_size_mobile": 16,
+        "title_height": 130,
+        "link_custom": false,
+        "link_font": "josefin_sans_n4",
+        "link_size": 16,
+        "link_size_mobile": 16,
+        "link_height": 200,
+        "text": "",
+        "second_text": "",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "title": "Sign up and be in the loop. No spam.",
+        "second_title": "",
+        "main_title_custom": false,
+        "main_title_font": "josefin_sans_n4",
+        "main_title_size": 16,
+        "main_title_size_mobile": 16,
+        "main_title_height": 130,
+        "use_payments": true,
+        "copy": "<p>© 2024, Your Store Name</p>",
+        "copy_custom": false,
+        "copy_font": "josefin_sans_n4",
+        "copy_size": 13,
+        "copy_size_mobile": 13,
+        "copy_height": 130,
+        "use_newsletter": true,
+        "input_padding_vertical": 14,
+        "input_padding_horizontal": 10,
+        "input_radius": 6,
+        "input_border_thickness": 1,
+        "input_placeholder": "Email",
+        "input_custom": false,
+        "input_font": "josefin_sans_n4",
+        "input_size": 16,
+        "input_size_mobile": 16,
+        "input_height": 100,
+        "submit": "Sign up",
+        "submit_custom": false,
+        "submit_font": "josefin_sans_n4",
+        "submit_size": 16,
+        "submit_size_mobile": 16,
+        "submit_height": 100,
+        "submit_padding_vertical": 16,
+        "submit_padding_horizontal": 16,
+        "submit_radius": 6,
+        "submit_border_thickness": 0,
+        "twitter": "#",
+        "facebook": "#",
+        "linkedin": "#",
+        "instagram": "#",
+        "youtube": "#",
+        "pinterest": "#",
+        "Whatsapp": "",
+        "tiktok": "#",
+        "social_icon": 20,
+        "social_icon_mobile": 20,
+        "input_border_color": "#FFFFFF",
+        "input_color": "#FFFFFF",
+        "input_placeholder_color": "#505152",
+        "submit_color": "#000000",
+        "submit_hover_color": "#000000",
+        "submit_bg_color": "#FFFFFF",
+        "submit_bg_hover_color": "#FFFFFF",
+        "submit_border_color": "#FFFFFF",
+        "submit_border_hover_color": "#DA9DFF",
+        "social_icon_color": "#FFFFFF",
+        "title_color": "#FFFFFF",
+        "link_color": "#FFFFFF",
+        "link_hover_color": "#FFFFFF",
+        "text_color": "#FFFFFF",
+        "main_title_color": "#FFFFFF",
+        "copy_color": "#FFFFFF",
+        "footer_border_color": "#FFFFFF",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 160,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
     "slideshow_M6AGEG",
+    "scrolling_logo_HFPe6g",
     "slideshow_7cWjYU",
     "slideshow_iY8JAA",
     "riche_text_8rhWN6",
@@ -906,6 +1095,7 @@
     "17598469456ed65186",
     "175984695742a8b177",
     "1759847027c47a3e6c",
-    "1759847141eb15e389"
+    "1759847141eb15e389",
+    "enbas_RWLtiJ"
   ]
 }
