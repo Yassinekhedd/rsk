@@ -111,7 +111,8 @@
     {% if section.settings.benefit_3 != blank %}<li>{{ section.settings.benefit_3 }}</li>{% endif %}
   </ul>
 
-  {% form 'product', product, id: 'ppp-form-' | append: section.id %}
+  {% form 'product', product %}
+ 'ppp-form-' | append: section.id %}
     {% for option in product.options_with_values %}
       <div class="ppp-options-{{ section.id }}">
         <label>{{ option.name }}</label>
