@@ -244,7 +244,7 @@
       "name": "SS - Video Slider",
       "settings": {
         "slider_view": 2,
-        "slider_view_mobile": 1.8,
+        "slider_view_mobile": 2,
         "slider_gap": 10,
         "slider_gap_mobile": 10,
         "slider_rotate": 0,
