@@ -233,8 +233,9 @@
           "type": "slide",
           "disabled": true,
           "settings": {
+            "video": "shopify://files/videos/352d77e65eb445e9a02d0dcfcfe51004.HD-1080p-7.2Mbps-41029925.mov",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "New Slide",
+            "title": "",
             "stars_count": 5
           }
         }
