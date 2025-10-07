@@ -461,6 +461,30 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "section_store_block_product_info_wrapper_VPjyG3": {
+          "type": "shopify://apps/section-store/blocks/block-product-info-wrapper/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+          "settings": {
+            "auto_detect_product_info_container": true,
+            "product_info_container_selector": "",
+            "use_on_mobile": true,
+            "use_header": false,
+            "header_font_size": 16,
+            "header_bg_color": "#000000",
+            "header_text_color": "#FFFFFF",
+            "header_text_align": "center",
+            "header_text": "♥︎ 9 of 10 recommend to friends",
+            "border_style": "solid",
+            "border_width": 1,
+            "border_color": "#DFDFDF",
+            "border_radius": 12,
+            "background_color": "",
+            "shadow": "shadow_3",
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "padding_left": 20,
+            "padding_right": 20
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -668,6 +692,7 @@
         }
       },
       "block_order": [
+        "section_store_block_product_info_wrapper_VPjyG3",
         "title",
         "section_store_block_review_summary_phekCR",
         "liquid_3yhj7n",
@@ -1125,6 +1150,7 @@
     "slideshow_M6AGEG",
     "scrolling_logo_HFPe6g",
     "slideshow_NPeJza",
+    "video_slider_AYrVbh",
     "instagram_fRaFXh",
     "slideshow_7cWjYU",
     "slideshow_iY8JAA",
@@ -1133,7 +1159,6 @@
     "main",
     "1759847344c059c555",
     "1759846999165cca8a",
-    "video_slider_AYrVbh",
     "tabs_ykjDmn",
     "footer_white_8A9hkp",
     "slideshow_TNAbrr",
