@@ -15,13 +15,13 @@
       "type": "newsletter-popup",
       "disabled": true,
       "settings": {
-        "apparition_delay": 5,
-        "show_only_on_index": true,
-        "show_only_for_visitors": true,
-        "show_only_once": true,
-        "title": "Signup for our newsletter",
-        "button_text": "Subscribe",
-        "subtext": "Describe what your customers will receive when subscribing to your newsletter."
+        "apparition_delay": 0,
+        "show_only_on_index": false,
+        "show_only_for_visitors": false,
+        "show_only_once": false,
+        "title": "",
+        "button_text": "",
+        "subtext": ""
       }
     },
     "privacy-banner": {
