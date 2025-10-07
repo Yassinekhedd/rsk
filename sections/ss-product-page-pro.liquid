@@ -1,0 +1,181 @@
+{% comment %}
+  Product Page Pro - style allemand / tothecurve
+  Créé pour Yassine (LucasGPT)
+  Section à utiliser sur le template "product"
+{% endcomment %}
+
+{% if request.page_type != 'product' %}
+  <div style="padding:20px;border:1px dashed #ccc;background:#fffbe6;">
+    ⚠️ Cette section fonctionne uniquement sur la page produit.
+  </div>
+{% else %}
+
+{%- assign variant = product.selected_or_first_available_variant -%}
+
+<style>
+  .ppp-wrap-{{ section.id }} {
+    background: {{ section.settings.bg }};
+    color: {{ section.settings.text }};
+    padding: {{ section.settings.padding }}px;
+    font-family: inherit;
+  }
+  .ppp-bar-{{ section.id }} {
+    text-align:center;
+    background: {{ section.settings.promo_bg }};
+    color: {{ section.settings.promo_text }};
+    padding:8px 12px;
+    font-size:14px;
+    border-radius:6px;
+    margin-bottom:16px;
+    font-weight:600;
+  }
+  .ppp-title-{{ section.id }} {
+    font-size: clamp(22px, 2.4vw, 32px);
+    font-weight:700;
+    margin-bottom:6px;
+  }
+  .ppp-stars-{{ section.id }} {
+    color: #f4b400;
+    font-size:15px;
+    margin-bottom:12px;
+  }
+  .ppp-price-{{ section.id }} {
+    display:flex;
+    align-items:baseline;
+    gap:8px;
+    margin-bottom:10px;
+  }
+  .ppp-price-{{ section.id }} .now { font-size:22px; font-weight:700; color: {{ section.settings.accent }}; }
+  .ppp-price-{{ section.id }} .was { text-decoration:line-through; color:#999; }
+  .ppp-badge-{{ section.id }} {
+    background:#ffefef; color:#c00;
+    font-size:12px; font-weight:700;
+    padding:4px 10px; border-radius:20px;
+    display:inline-block; margin-bottom:12px;
+  }
+  .ppp-benefits-{{ section.id }} {
+    margin:18px 0;
+  }
+  .ppp-benefits-{{ section.id }} li {
+    list-style:none;
+    padding-left:24px;
+    position:relative;
+    margin-bottom:6px;
+  }
+  .ppp-benefits-{{ section.id }} li::before {
+    content:"✅";
+    position:absolute; left:0;
+  }
+  .ppp-options-{{ section.id }} label {
+    display:block; font-size:13px; margin-bottom:6px; color:#555;
+  }
+  .ppp-options-{{ section.id }} select {
+    width:100%; padding:10px; border:1px solid #ccc;
+    border-radius:8px; margin-bottom:10px;
+  }
+  .ppp-atc-{{ section.id }} {
+    display:block; width:100%;
+    background: {{ section.settings.btn_bg }};
+    color: {{ section.settings.btn_text }};
+    border:none; padding:14px;
+    font-weight:700; border-radius:10px;
+    margin-top:10px; cursor:pointer;
+    font-size:16px;
+  }
+  .ppp-atc-{{ section.id }}[disabled]{opacity:0.5;cursor:not-allowed;}
+</style>
+
+<div class="ppp-wrap-{{ section.id }}">
+  {% if section.settings.promo_text_value != blank %}
+    <div class="ppp-bar-{{ section.id }}">{{ section.settings.promo_text_value }}</div>
+  {% endif %}
+
+  <h1 class="ppp-title-{{ section.id }}">{{ product.title }}</h1>
+
+  <div class="ppp-stars-{{ section.id }}">
+    ⭐⭐⭐⭐⭐ <span style="color:#666;font-size:13px;">{{ section.settings.review_text }}</span>
+  </div>
+
+  <div class="ppp-badge-{{ section.id }}">{{ section.settings.badge_text }}</div>
+
+  <div class="ppp-price-{{ section.id }}">
+    <span class="now">{{ variant.price | money }}</span>
+    {% if variant.compare_at_price > variant.price %}
+      <span class="was">{{ variant.compare_at_price | money }}</span>
+    {% endif %}
+  </div>
+
+  <ul class="ppp-benefits-{{ section.id }}">
+    {% if section.settings.benefit_1 != blank %}<li>{{ section.settings.benefit_1 }}</li>{% endif %}
+    {% if section.settings.benefit_2 != blank %}<li>{{ section.settings.benefit_2 }}</li>{% endif %}
+    {% if section.settings.benefit_3 != blank %}<li>{{ section.settings.benefit_3 }}</li>{% endif %}
+  </ul>
+
+  {% form 'product', product, id: 'ppp-form-' | append: section.id %}
+    {% for option in product.options_with_values %}
+      <div class="ppp-options-{{ section.id }}">
+        <label>{{ option.name }}</label>
+        <select name="options[{{ option.name | escape }}]" id="Option{{ forloop.index }}">
+          {% for value in option.values %}
+            <option value="{{ value | escape }}" {% if option.selected_value == value %}selected{% endif %}>{{ value }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    {% endfor %}
+
+    <button type="submit" class="ppp-atc-{{ section.id }}" {% unless variant.available %}disabled{% endunless %}>
+      {{ section.settings.btn_label }}
+    </button>
+  {% endform %}
+</div>
+
+<script>
+(function(){
+  const sid = "{{ section.id }}";
+  const form = document.getElementById("ppp-form-"+sid);
+  if(!form) return;
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    const fd = new FormData(form);
+    fetch('/cart/add.js', { method:'POST', body:fd })
+      .then(r=>r.json())
+      .then(()=> window.location.href='/cart')
+      .catch(()=> alert('Erreur, réessaie.'));
+  });
+})();
+</script>
+
+{% endif %}
+
+{% schema %}
+{
+  "name": "Product Page Pro",
+  "settings": [
+    { "type": "color", "id": "bg", "label": "Fond", "default": "#ffffff" },
+    { "type": "color", "id": "text", "label": "Texte", "default": "#111111" },
+    { "type": "color", "id": "accent", "label": "Couleur prix", "default": "#111111" },
+    { "type": "range", "id": "padding", "label": "Padding", "min": 0, "max": 60, "step": 4, "default": 20 },
+
+    { "type": "header", "content": "Bande promo" },
+    { "type": "text", "id": "promo_text_value", "label": "Texte promo", "default": "🔥 2 FÜR 1 GRATIS – Heute nur!" },
+    { "type": "color", "id": "promo_bg", "label": "Fond promo", "default": "#f5f5f5" },
+    { "type": "color", "id": "promo_text", "label": "Texte promo", "default": "#111111" },
+
+    { "type": "header", "content": "Avis & Badge" },
+    { "type": "text", "id": "review_text", "label": "Texte avis", "default": "(134 Bewertungen)" },
+    { "type": "text", "id": "badge_text", "label": "Badge (ex: Sonderangebot)", "default": "SONDERANGEBOT" },
+
+    { "type": "header", "content": "Avantages" },
+    { "type": "text", "id": "benefit_1", "label": "Avantage 1", "default": "Soforteffekt – sichtbar ab der 1. Anwendung" },
+    { "type": "text", "id": "benefit_2", "label": "Avantage 2", "default": "Dermatologisch getestet & hautfreundlich" },
+    { "type": "text", "id": "benefit_3", "label": "Avantage 3", "default": "Kostenloser Versand ab 50€" },
+
+    { "type": "header", "content": "Bouton" },
+    { "type": "text", "id": "btn_label", "label": "Texte bouton", "default": "In den Warenkorb" },
+    { "type": "color", "id": "btn_bg", "label": "Fond bouton", "default": "#111111" },
+    { "type": "color", "id": "btn_text", "label": "Texte bouton", "default": "#ffffff" }
+  ],
+  "presets": [{ "name": "Product Page Pro" }],
+  "templates": ["product"]
+}
+{% endschema %}
