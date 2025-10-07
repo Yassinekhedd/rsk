@@ -313,6 +313,47 @@
         "lazy": true
       }
     },
+    "slideshow_9zgxEd": {
+      "type": "slideshow",
+      "blocks": {
+        "image_CcGfmq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_23.38.43_7eb8a660.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_CcGfmq"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "instagram_fRaFXh": {
       "type": "instagram",
       "blocks": {
@@ -1129,6 +1170,7 @@
     "scrolling_logo_HFPe6g",
     "slideshow_NPeJza",
     "video_slider_AYrVbh",
+    "slideshow_9zgxEd",
     "instagram_fRaFXh",
     "slideshow_7cWjYU",
     "slideshow_iY8JAA",
