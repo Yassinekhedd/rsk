@@ -61,7 +61,8 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <a href="#main" class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
     {%- if request.page_type != 'password' -%}
-      {%- sections 'header-group' -%}
+      {%- comment -%} On ignore le header-group et on rend directement la section header.liquid {%- endcomment -%}
+      {% section 'header' %}
       {%- sections 'overlay-group' -%}
 
       {%- if settings.cart_type == 'popover' -%}
