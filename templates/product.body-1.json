@@ -231,12 +231,11 @@
         },
         "slide_XT7AAh": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/352d77e65eb445e9a02d0dcfcfe51004.HD-1080p-7.2Mbps-41029925.mov",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "title": "",
-            "stars_count": 5
+            "stars_count": 0
           }
         }
       },
@@ -357,8 +356,8 @@
         "image_4B83hm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_23.32.50_3fac80b2.jpg",
-            "mobile_image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_23.32.50_3fac80b2.jpg",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_23.38.43_7eb8a660.jpg",
+            "mobile_image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_23.38.43_7eb8a660.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
