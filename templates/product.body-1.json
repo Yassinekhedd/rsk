@@ -618,7 +618,7 @@
         "heading_align_mobile": "center",
         "heading_row": true,
         "items_width": 100,
-        "items_width_mobile": 80,
+        "items_width_mobile": 90,
         "items_row": 3,
         "items_row_mobile": 1,
         "items_gap": 48,
