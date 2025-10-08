@@ -1224,6 +1224,22 @@
         "review_button_text_color": "#ffffff"
       }
     },
+    "1759846999165cca8a": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
     "slideshow_NPeJza": {
       "type": "slideshow",
       "blocks": {
@@ -1263,22 +1279,6 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
-      }
-    },
-    "1759846999165cca8a": {
-      "type": "apps",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
       }
     },
     "tabs_ykjDmn": {
@@ -1541,11 +1541,11 @@
     "impact_text_RxqtdV",
     "main",
     "scrolling_logo_DxrXVc",
+    "slideshow_NPeJza",
     "video_griiiid_TbqbrT",
     "1759847344c059c555",
     "1759846999165cca8a",
     "tabs_ykjDmn",
-    "slideshow_NPeJza",
     "footer_white_8A9hkp",
     "slideshow_TNAbrr",
     "related-products",
