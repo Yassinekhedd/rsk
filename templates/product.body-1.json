@@ -600,6 +600,7 @@
         "slide_EAtwqC",
         "slide_8QreTW"
       ],
+      "disabled": true,
       "name": "SS - Scrolling Logo Cloud",
       "settings": {
         "ss-title": "",
@@ -670,91 +671,6 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
-      }
-    },
-    "scrolling_logo_nHBkFx": {
-      "type": "Scrolling-logo",
-      "blocks": {
-        "slide_tzNVa6": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/1200px-VOGUE_revista_-_logo_3b923b11-a209-4aa1-9960-1abf9295591b.avif",
-            "link": ""
-          }
-        },
-        "slide_7BwtbB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Glamour-Logo_svg_bd37ef36-712f-46e7-92ec-905de353f77f.avif",
-            "link": ""
-          }
-        },
-        "slide_LYWy9d": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/allure-logo.avif",
-            "link": ""
-          }
-        },
-        "slide_ybV8ef": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Glamour-Logo_svg_bd37ef36-712f-46e7-92ec-905de353f77f.avif",
-            "link": ""
-          }
-        },
-        "slide_npRDkt": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "link": ""
-          }
-        },
-        "slide_UY7ji7": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_tzNVa6",
-        "slide_7BwtbB",
-        "slide_LYWy9d",
-        "slide_ybV8ef",
-        "slide_npRDkt",
-        "slide_UY7ji7"
-      ],
-      "name": "SS - Scrolling Logo Cloud",
-      "settings": {
-        "ss-title": "",
-        "heading_custom": false,
-        "heading_font": "assistant_n4",
-        "header_size": 30,
-        "header_align": "center",
-        "scrolling_velocity": 100,
-        "pause_hover": true,
-        "shadow": false,
-        "sliders_mt": 0,
-        "logo_padding_top": 4,
-        "logo_padding_bottom": 0,
-        "slider_gap": 38,
-        "slider_gap_mobile": 38,
-        "slider_direction": "left",
-        "icon_width": 100,
-        "header_color": "#000000",
-        "border_color": "#ffffff",
-        "background-color": "#ffffff",
-        "slider-background-color": "#ffffff",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": false
       }
     },
     "scrolling_logo_hdRreL": {
@@ -1813,15 +1729,14 @@
     "slideshow_aYX3bV",
     "scrolling_logo_FT7w7q",
     "slideshow_6hVpyT",
-    "scrolling_logo_nHBkFx",
     "scrolling_logo_hdRreL",
     "slideshow_7cWjYU",
     "slideshow_iY8JAA",
     "riche_text_8rhWN6",
     "impact_text_RxqtdV",
+    "video_griiiid_TbqbrT",
     "main",
     "tabs_ykjDmn",
-    "video_griiiid_TbqbrT",
     "scrolling_logo_DxrXVc",
     "instagram_fRaFXh",
     "1759846999165cca8a",
