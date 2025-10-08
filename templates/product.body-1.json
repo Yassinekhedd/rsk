@@ -391,6 +391,7 @@
         "slide_FeeQbM",
         "slide_4fJ9Mt"
       ],
+      "disabled": true,
       "name": "SS - Scrolling Logo Cloud",
       "settings": {
         "ss-title": "",
@@ -420,47 +421,6 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
-      }
-    },
-    "slideshow_NPeJza": {
-      "type": "slideshow",
-      "blocks": {
-        "image_rGYRTX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Ajouter_un_titre_5.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_rGYRTX"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
       }
     },
     "slideshow_aYX3bV": {
@@ -542,6 +502,47 @@
         "autoplay": false,
         "cycle_speed": 6,
         "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_NPeJza": {
+      "type": "slideshow",
+      "blocks": {
+        "image_rGYRTX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ajouter_un_titre_5.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rGYRTX"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -1045,53 +1046,6 @@
         "input_text_color": ""
       }
     },
-    "tabs_ykjDmn": {
-      "type": "tabs",
-      "blocks": {
-        "tab_FkhHhK": {
-          "type": "tab",
-          "settings": {
-            "title": "Beschreibung",
-            "content": "<p>Use this text to share information about your brand with your customers.</p>",
-            "page": ""
-          }
-        },
-        "tab_QdQEMX": {
-          "type": "tab",
-          "settings": {
-            "title": "Lieferung & Versand",
-            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
-            "page": ""
-          }
-        },
-        "tab_DFQ9jX": {
-          "type": "tab",
-          "settings": {
-            "title": "Rückgaberecht",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_FkhHhK",
-        "tab_QdQEMX",
-        "tab_DFQ9jX"
-      ],
-      "name": "Tabs",
-      "settings": {
-        "full_width": true,
-        "content_size": "small",
-        "subheading": "",
-        "title": "",
-        "first_tab_open": false,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "scrolling_logo_DxrXVc": {
       "type": "Scrolling-logo",
       "blocks": {
@@ -1175,6 +1129,53 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
+      }
+    },
+    "tabs_ykjDmn": {
+      "type": "tabs",
+      "blocks": {
+        "tab_FkhHhK": {
+          "type": "tab",
+          "settings": {
+            "title": "Beschreibung",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>",
+            "page": ""
+          }
+        },
+        "tab_QdQEMX": {
+          "type": "tab",
+          "settings": {
+            "title": "Lieferung & Versand",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_DFQ9jX": {
+          "type": "tab",
+          "settings": {
+            "title": "Rückgaberecht",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_FkhHhK",
+        "tab_QdQEMX",
+        "tab_DFQ9jX"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "small",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": false,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "video_griiiid_TbqbrT": {
@@ -1628,9 +1629,9 @@
     "video_slider_AYrVbh",
     "slideshow_9zgxEd",
     "scrolling_logo_RqYz7X",
-    "slideshow_NPeJza",
     "slideshow_aYX3bV",
     "slideshow_DeYtL3",
+    "slideshow_NPeJza",
     "scrolling_logo_hdRreL",
     "slideshow_7cWjYU",
     "slideshow_iY8JAA",
