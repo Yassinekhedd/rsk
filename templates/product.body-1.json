@@ -427,7 +427,6 @@
       "blocks": {
         "image_7wDwhm": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.54.59_91cacea9.jpg",
             "content_max_width": 780,
@@ -1616,12 +1615,12 @@
   },
   "order": [
     "slideshow_M6AGEG",
+    "slideshow_NPeJza",
     "scrolling_logo_HFPe6g",
     "video_slider_AYrVbh",
     "slideshow_9zgxEd",
     "scrolling_logo_RqYz7X",
     "slideshow_DeYtL3",
-    "slideshow_NPeJza",
     "scrolling_logo_hdRreL",
     "instagram_fRaFXh",
     "slideshow_7cWjYU",
