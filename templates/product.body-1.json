@@ -513,6 +513,7 @@
       "blocks": {
         "image_rGYRTX": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/WhatsApp_Image_2025-10-08_a_21.00.43_26540a87.jpg",
             "content_max_width": 780,
@@ -555,7 +556,7 @@
         "image_wB7TXM": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Ajouter_un_titre_5.png",
+            "image": "shopify://shop_images/Ajouter_un_titre_8.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
