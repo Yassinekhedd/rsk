@@ -228,7 +228,7 @@
         "image_rGYRTX": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.54.59_91cacea9.jpg",
+            "image": "shopify://shop_images/Ajouter_un_titre_1.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -460,6 +460,47 @@
         "autoplay": false,
         "cycle_speed": 6,
         "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_DeYtL3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_7wDwhm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.54.59_91cacea9.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7wDwhm"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
         "background_gradient": ""
       }
     },
@@ -1493,6 +1534,7 @@
     "slideshow_NPeJza",
     "video_slider_AYrVbh",
     "slideshow_9zgxEd",
+    "slideshow_DeYtL3",
     "instagram_fRaFXh",
     "slideshow_7cWjYU",
     "slideshow_iY8JAA",
