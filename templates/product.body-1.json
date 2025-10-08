@@ -423,6 +423,91 @@
         "lazy": true
       }
     },
+    "scrolling_logo_FT7w7q": {
+      "type": "Scrolling-logo",
+      "blocks": {
+        "slide_tF4VJt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1200px-VOGUE_revista_-_logo_3b923b11-a209-4aa1-9960-1abf9295591b.avif",
+            "link": ""
+          }
+        },
+        "slide_BNtpKP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Glamour-Logo_svg_bd37ef36-712f-46e7-92ec-905de353f77f.avif",
+            "link": ""
+          }
+        },
+        "slide_Yk6H7h": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/allure-logo.avif",
+            "link": ""
+          }
+        },
+        "slide_DeNXgH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Glamour-Logo_svg_bd37ef36-712f-46e7-92ec-905de353f77f.avif",
+            "link": ""
+          }
+        },
+        "slide_EAtwqC": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "slide_8QreTW": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_tF4VJt",
+        "slide_BNtpKP",
+        "slide_Yk6H7h",
+        "slide_DeNXgH",
+        "slide_EAtwqC",
+        "slide_8QreTW"
+      ],
+      "name": "SS - Scrolling Logo Cloud",
+      "settings": {
+        "ss-title": "",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 30,
+        "header_align": "center",
+        "scrolling_velocity": 100,
+        "pause_hover": true,
+        "shadow": false,
+        "sliders_mt": 0,
+        "logo_padding_top": 4,
+        "logo_padding_bottom": 0,
+        "slider_gap": 38,
+        "slider_gap_mobile": 38,
+        "slider_direction": "right",
+        "icon_width": 100,
+        "header_color": "#000000",
+        "border_color": "#ffffff",
+        "background-color": "#ffffff",
+        "slider-background-color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "slideshow_NPeJza": {
       "type": "slideshow",
       "blocks": {
@@ -1646,22 +1731,6 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
-    },
-    "1759847141eb15e389": {
-      "type": "apps",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
     }
   },
   "order": [
@@ -1670,6 +1739,7 @@
     "video_slider_AYrVbh",
     "slideshow_9zgxEd",
     "scrolling_logo_RqYz7X",
+    "scrolling_logo_FT7w7q",
     "slideshow_NPeJza",
     "slideshow_kKMgc9",
     "slideshow_DeYtL3",
@@ -1688,7 +1758,6 @@
     "footer_white_8A9hkp",
     "slideshow_TNAbrr",
     "related-products",
-    "1759847027c47a3e6c",
-    "1759847141eb15e389"
+    "1759847027c47a3e6c"
   ]
 }
