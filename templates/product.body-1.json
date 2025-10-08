@@ -696,10 +696,10 @@
           "type": "shopify://apps/section-store/blocks/block-coupon-code/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
           "settings": {
             "top_text": "Now: 10% OFF",
-            "bottom_text": "<p>Code: 10<em>OFF</em></p>",
+            "bottom_text": "<p>Code: NACHT10</p>",
             "text_size": 15,
             "text_color": "#ffffff",
-            "coupon": "10SALE",
+            "coupon": "NACHT10",
             "copy_text": "Copy",
             "copied_text": "Copied!",
             "button_color": "#000000",
