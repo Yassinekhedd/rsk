@@ -618,7 +618,7 @@
         "heading_align_mobile": "center",
         "heading_row": true,
         "items_width": 100,
-        "items_width_mobile": 100,
+        "items_width_mobile": 80,
         "items_row": 3,
         "items_row_mobile": 1,
         "items_gap": 48,
@@ -1130,6 +1130,53 @@
         "input_text_color": ""
       }
     },
+    "tabs_ykjDmn": {
+      "type": "tabs",
+      "blocks": {
+        "tab_FkhHhK": {
+          "type": "tab",
+          "settings": {
+            "title": "Beschreibung",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>",
+            "page": ""
+          }
+        },
+        "tab_QdQEMX": {
+          "type": "tab",
+          "settings": {
+            "title": "Lieferung & Versand",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_DFQ9jX": {
+          "type": "tab",
+          "settings": {
+            "title": "Rückgaberecht",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_FkhHhK",
+        "tab_QdQEMX",
+        "tab_DFQ9jX"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "small",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": false,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "scrolling_logo_DxrXVc": {
       "type": "Scrolling-logo",
       "blocks": {
@@ -1367,53 +1414,6 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "tabs_ykjDmn": {
-      "type": "tabs",
-      "blocks": {
-        "tab_FkhHhK": {
-          "type": "tab",
-          "settings": {
-            "title": "Beschreibung",
-            "content": "<p>Use this text to share information about your brand with your customers.</p>",
-            "page": ""
-          }
-        },
-        "tab_QdQEMX": {
-          "type": "tab",
-          "settings": {
-            "title": "Lieferung & Versand",
-            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
-            "page": ""
-          }
-        },
-        "tab_DFQ9jX": {
-          "type": "tab",
-          "settings": {
-            "title": "Rückgaberecht",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_FkhHhK",
-        "tab_QdQEMX",
-        "tab_DFQ9jX"
-      ],
-      "name": "Tabs",
-      "settings": {
-        "full_width": true,
-        "content_size": "small",
-        "subheading": "",
-        "title": "",
-        "first_tab_open": false,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "footer_white_8A9hkp": {
       "type": "footer-white",
       "name": "SS - Footer #3",
@@ -1628,11 +1628,11 @@
     "riche_text_8rhWN6",
     "impact_text_RxqtdV",
     "main",
+    "tabs_ykjDmn",
     "scrolling_logo_DxrXVc",
     "video_griiiid_TbqbrT",
     "1759847344c059c555",
     "1759846999165cca8a",
-    "tabs_ykjDmn",
     "footer_white_8A9hkp",
     "slideshow_TNAbrr",
     "related-products",
