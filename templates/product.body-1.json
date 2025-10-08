@@ -1423,91 +1423,6 @@
         "lazy": true
       }
     },
-    "scrolling_logo_nwXnT9": {
-      "type": "Scrolling-logo",
-      "blocks": {
-        "slide_JrCzKa": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/1200px-VOGUE_revista_-_logo_3b923b11-a209-4aa1-9960-1abf9295591b.avif",
-            "link": ""
-          }
-        },
-        "slide_eLbd7N": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Glamour-Logo_svg_bd37ef36-712f-46e7-92ec-905de353f77f.avif",
-            "link": ""
-          }
-        },
-        "slide_aiPTUD": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/allure-logo.avif",
-            "link": ""
-          }
-        },
-        "slide_WmR999": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Glamour-Logo_svg_bd37ef36-712f-46e7-92ec-905de353f77f.avif",
-            "link": ""
-          }
-        },
-        "slide_kgBXVH": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "link": ""
-          }
-        },
-        "slide_GDCXdp": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_JrCzKa",
-        "slide_eLbd7N",
-        "slide_aiPTUD",
-        "slide_WmR999",
-        "slide_kgBXVH",
-        "slide_GDCXdp"
-      ],
-      "name": "SS - Scrolling Logo Cloud",
-      "settings": {
-        "ss-title": "",
-        "heading_custom": false,
-        "heading_font": "assistant_n4",
-        "header_size": 30,
-        "header_align": "center",
-        "scrolling_velocity": 30,
-        "pause_hover": false,
-        "shadow": false,
-        "sliders_mt": 0,
-        "logo_padding_top": 4,
-        "logo_padding_bottom": 0,
-        "slider_gap": 38,
-        "slider_gap_mobile": 38,
-        "slider_direction": "right",
-        "icon_width": 100,
-        "header_color": "#000000",
-        "border_color": "#ffffff",
-        "background-color": "#ffffff",
-        "slider-background-color": "#ffffff",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
     "1759846999165cca8a": {
       "type": "apps",
       "settings": {
@@ -1722,11 +1637,10 @@
     "riche_text_8rhWN6",
     "impact_text_RxqtdV",
     "main",
-    "tabs_ykjDmn",
     "scrolling_logo_DxrXVc",
+    "tabs_ykjDmn",
     "video_griiiid_TbqbrT",
     "instagram_fRaFXh",
-    "scrolling_logo_nwXnT9",
     "1759846999165cca8a",
     "footer_white_8A9hkp",
     "slideshow_TNAbrr",
