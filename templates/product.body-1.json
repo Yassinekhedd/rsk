@@ -424,7 +424,6 @@
       "blocks": {
         "image_xU98hW": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.54.59_91cacea9.jpg",
             "content_max_width": 780,
@@ -1679,11 +1678,10 @@
     "scrolling_logo_HFPe6g",
     "video_slider_AYrVbh",
     "slideshow_9zgxEd",
-    "slideshow_aYX3bV",
-    "slideshow_GDqrpF",
-    "slideshow_6hVpyT",
     "slideshow_kKMgc9",
     "slideshow_DeYtL3",
+    "slideshow_aYX3bV",
+    "slideshow_6hVpyT",
     "scrolling_logo_RqYz7X",
     "scrolling_logo_hdRreL",
     "slideshow_7cWjYU",
@@ -1691,6 +1689,7 @@
     "riche_text_8rhWN6",
     "impact_text_RxqtdV",
     "video_griiiid_TbqbrT",
+    "slideshow_GDqrpF",
     "main",
     "tabs_ykjDmn",
     "scrolling_logo_DxrXVc",
