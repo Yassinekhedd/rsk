@@ -337,88 +337,6 @@
         "background_gradient": ""
       }
     },
-    "slideshow_aYX3bV": {
-      "type": "slideshow",
-      "blocks": {
-        "image_xU98hW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.54.59_91cacea9.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_xU98hW"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
-    "slideshow_DeYtL3": {
-      "type": "slideshow",
-      "blocks": {
-        "image_7wDwhm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Ajouter_un_titre_4.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_7wDwhm"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#F2F2F2",
-        "background_gradient": ""
-      }
-    },
     "scrolling_logo_RqYz7X": {
       "type": "Scrolling-logo",
       "blocks": {
@@ -542,6 +460,88 @@
         "autoplay": false,
         "cycle_speed": 6,
         "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_aYX3bV": {
+      "type": "slideshow",
+      "blocks": {
+        "image_xU98hW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.54.59_91cacea9.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xU98hW"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_DeYtL3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_7wDwhm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ajouter_un_titre_4.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7wDwhm"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
         "background_gradient": ""
       }
     },
@@ -1423,6 +1423,91 @@
         "lazy": true
       }
     },
+    "scrolling_logo_nwXnT9": {
+      "type": "Scrolling-logo",
+      "blocks": {
+        "slide_JrCzKa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1200px-VOGUE_revista_-_logo_3b923b11-a209-4aa1-9960-1abf9295591b.avif",
+            "link": ""
+          }
+        },
+        "slide_eLbd7N": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Glamour-Logo_svg_bd37ef36-712f-46e7-92ec-905de353f77f.avif",
+            "link": ""
+          }
+        },
+        "slide_aiPTUD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/allure-logo.avif",
+            "link": ""
+          }
+        },
+        "slide_WmR999": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Glamour-Logo_svg_bd37ef36-712f-46e7-92ec-905de353f77f.avif",
+            "link": ""
+          }
+        },
+        "slide_kgBXVH": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "slide_GDCXdp": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_JrCzKa",
+        "slide_eLbd7N",
+        "slide_aiPTUD",
+        "slide_WmR999",
+        "slide_kgBXVH",
+        "slide_GDCXdp"
+      ],
+      "name": "SS - Scrolling Logo Cloud",
+      "settings": {
+        "ss-title": "",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 30,
+        "header_align": "center",
+        "scrolling_velocity": 30,
+        "pause_hover": false,
+        "shadow": false,
+        "sliders_mt": 0,
+        "logo_padding_top": 4,
+        "logo_padding_bottom": 0,
+        "slider_gap": 38,
+        "slider_gap_mobile": 38,
+        "slider_direction": "right",
+        "icon_width": 100,
+        "header_color": "#000000",
+        "border_color": "#ffffff",
+        "background-color": "#ffffff",
+        "slider-background-color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "1759846999165cca8a": {
       "type": "apps",
       "settings": {
@@ -1589,22 +1674,6 @@
         "product_card_text_color": ""
       }
     },
-    "175984695742a8b177": {
-      "type": "apps",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
     "1759847027c47a3e6c": {
       "type": "apps",
       "settings": {
@@ -1657,11 +1726,11 @@
     "scrolling_logo_DxrXVc",
     "video_griiiid_TbqbrT",
     "instagram_fRaFXh",
+    "scrolling_logo_nwXnT9",
     "1759846999165cca8a",
     "footer_white_8A9hkp",
     "slideshow_TNAbrr",
     "related-products",
-    "175984695742a8b177",
     "1759847027c47a3e6c",
     "1759847141eb15e389"
   ]
