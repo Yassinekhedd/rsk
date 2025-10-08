@@ -427,6 +427,7 @@
       "blocks": {
         "image_7wDwhm": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.54.59_91cacea9.jpg",
             "content_max_width": 780,
@@ -558,6 +559,7 @@
         "slide_R4VVrB",
         "slide_X7T3Rm"
       ],
+      "disabled": true,
       "name": "SS - Scrolling Logo Cloud",
       "settings": {
         "ss-title": "",
