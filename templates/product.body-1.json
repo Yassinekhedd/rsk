@@ -556,7 +556,7 @@
         "image_wB7TXM": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Ajouter_un_titre_8.png",
+            "image": "shopify://shop_images/Ajouter_un_titre_5.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
