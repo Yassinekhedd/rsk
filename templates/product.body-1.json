@@ -337,6 +337,88 @@
         "background_gradient": ""
       }
     },
+    "slideshow_aYX3bV": {
+      "type": "slideshow",
+      "blocks": {
+        "image_xU98hW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.54.59_91cacea9.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xU98hW"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_6hVpyT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_wB7TXM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ajouter_un_titre_5.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wB7TXM"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
     "slideshow_kKMgc9": {
       "type": "slideshow",
       "blocks": {
@@ -416,88 +498,6 @@
         "autoplay": false,
         "cycle_speed": 6,
         "background": "#F2F2F2",
-        "background_gradient": ""
-      }
-    },
-    "slideshow_6hVpyT": {
-      "type": "slideshow",
-      "blocks": {
-        "image_wB7TXM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Ajouter_un_titre_5.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_wB7TXM"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
-    "slideshow_aYX3bV": {
-      "type": "slideshow",
-      "blocks": {
-        "image_xU98hW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.54.59_91cacea9.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_xU98hW"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -855,20 +855,20 @@
         "sub_heading_size": 16,
         "sub_heading_size_mobile": 16,
         "sub_heading_height": 150,
-        "sub_heading_mt": 22,
-        "sub_heading_mt_mobile": 6,
+        "sub_heading_mt": 2,
+        "sub_heading_mt_mobile": 4,
         "sub_heading_padding_horizontal": 200,
         "sub_heading_padding_horizontal_mobile": 0,
         "sub_heading_align": "center",
         "sub_heading_align_mobile": "center",
-        "text": "<p>Unsere Lingerie vereint Eleganz und Komfort – für Frauen, die wissen, was sie wollen.<br/><br/></p>",
+        "text": "<p><br/><br/></p>",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 16,
         "text_size_mobile": 16,
         "text_height": 150,
         "text_mt": 48,
-        "text_mt_mobile": 40,
+        "text_mt_mobile": 0,
         "text_padding_horizontal": 200,
         "text_padding_horizontal_mobile": 0,
         "text_align": "center",
