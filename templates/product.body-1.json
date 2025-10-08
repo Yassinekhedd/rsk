@@ -463,6 +463,132 @@
         "background_gradient": ""
       }
     },
+    "slideshow_NPeJza": {
+      "type": "slideshow",
+      "blocks": {
+        "image_rGYRTX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ajouter_un_titre_1.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rGYRTX"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "scrolling_logo_hdRreL": {
+      "type": "Scrolling-logo",
+      "blocks": {
+        "slide_JqKXMG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1200px-VOGUE_revista_-_logo_3b923b11-a209-4aa1-9960-1abf9295591b.avif",
+            "link": ""
+          }
+        },
+        "slide_mR7RDd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Glamour-Logo_svg_bd37ef36-712f-46e7-92ec-905de353f77f.avif",
+            "link": ""
+          }
+        },
+        "slide_pzzHtH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/allure-logo.avif",
+            "link": ""
+          }
+        },
+        "slide_jNbBzn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Glamour-Logo_svg_bd37ef36-712f-46e7-92ec-905de353f77f.avif",
+            "link": ""
+          }
+        },
+        "slide_R4VVrB": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "slide_X7T3Rm": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_JqKXMG",
+        "slide_mR7RDd",
+        "slide_pzzHtH",
+        "slide_jNbBzn",
+        "slide_R4VVrB",
+        "slide_X7T3Rm"
+      ],
+      "name": "SS - Scrolling Logo Cloud",
+      "settings": {
+        "ss-title": "",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 30,
+        "header_align": "center",
+        "scrolling_velocity": 30,
+        "pause_hover": false,
+        "shadow": false,
+        "sliders_mt": 0,
+        "logo_padding_top": 4,
+        "logo_padding_bottom": 0,
+        "slider_gap": 38,
+        "slider_gap_mobile": 38,
+        "slider_direction": "left",
+        "icon_width": 100,
+        "header_color": "#000000",
+        "border_color": "#ffffff",
+        "background-color": "#ffffff",
+        "slider-background-color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "instagram_fRaFXh": {
       "type": "instagram",
       "blocks": {
@@ -720,132 +846,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "slideshow_NPeJza": {
-      "type": "slideshow",
-      "blocks": {
-        "image_rGYRTX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Ajouter_un_titre_1.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_rGYRTX"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
-    "scrolling_logo_nQeUAP": {
-      "type": "Scrolling-logo",
-      "blocks": {
-        "slide_QVQ9kT": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/1200px-VOGUE_revista_-_logo_3b923b11-a209-4aa1-9960-1abf9295591b.avif",
-            "link": ""
-          }
-        },
-        "slide_KwM89N": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Glamour-Logo_svg_bd37ef36-712f-46e7-92ec-905de353f77f.avif",
-            "link": ""
-          }
-        },
-        "slide_XdjiQw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/allure-logo.avif",
-            "link": ""
-          }
-        },
-        "slide_UdXVqz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Glamour-Logo_svg_bd37ef36-712f-46e7-92ec-905de353f77f.avif",
-            "link": ""
-          }
-        },
-        "slide_6XyJqV": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "link": ""
-          }
-        },
-        "slide_3yNnMz": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_QVQ9kT",
-        "slide_KwM89N",
-        "slide_XdjiQw",
-        "slide_UdXVqz",
-        "slide_6XyJqV",
-        "slide_3yNnMz"
-      ],
-      "name": "SS - Scrolling Logo Cloud",
-      "settings": {
-        "ss-title": "",
-        "heading_custom": false,
-        "heading_font": "assistant_n4",
-        "header_size": 30,
-        "header_align": "center",
-        "scrolling_velocity": 30,
-        "pause_hover": false,
-        "shadow": false,
-        "sliders_mt": 0,
-        "logo_padding_top": 4,
-        "logo_padding_bottom": 0,
-        "slider_gap": 38,
-        "slider_gap_mobile": 38,
-        "slider_direction": "left",
-        "icon_width": 100,
-        "header_color": "#000000",
-        "border_color": "#ffffff",
-        "background-color": "#ffffff",
-        "slider-background-color": "#ffffff",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
       }
     },
     "main": {
@@ -1619,13 +1619,13 @@
     "slideshow_9zgxEd",
     "scrolling_logo_RqYz7X",
     "slideshow_DeYtL3",
+    "slideshow_NPeJza",
+    "scrolling_logo_hdRreL",
     "instagram_fRaFXh",
     "slideshow_7cWjYU",
     "slideshow_iY8JAA",
     "riche_text_8rhWN6",
     "impact_text_RxqtdV",
-    "slideshow_NPeJza",
-    "scrolling_logo_nQeUAP",
     "main",
     "scrolling_logo_DxrXVc",
     "video_griiiid_TbqbrT",
