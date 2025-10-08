@@ -876,7 +876,7 @@
         "items_row": 5,
         "items_row_mobile": 1.5,
         "items_gap": 0,
-        "items_gap_mobile": 0,
+        "items_gap_mobile": 30,
         "items_mt": 60,
         "items_mt_mobile": 10,
         "card_radius": 12,
