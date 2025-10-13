@@ -1418,18 +1418,47 @@
     "testi_20_LGCzgw": {
       "type": "testi-20",
       "blocks": {
-        "slide_KNyF3N": {
+        "slide_a3bMbw": {
           "type": "slide",
           "settings": {
             "author": "Author",
-            "time": "6h ago",
-            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.58.33_c8dc058e.jpg",
-            "count_comments": "30",
-            "comment": "30 comments",
+            "time": "24h ago",
+            "text": "<p>Ich liebe diesen Body! 😍 Die Qualität ist top und der Stoff fühlt sich richtig angenehm auf der Haut an. Werde definitiv noch einen bestellen!</p>",
+            "image": "shopify://shop_images/83cd741b-0f86-4d3d-9fa3-f3240e8845ad_647x1151_23661fe8-a520-4701-b3b9-5ccabffc2622.webp",
+            "count_comments": "3K",
+            "comment": "830 comments",
             "like_text": "Like",
             "comment_text": "Comment",
-            "share_text": "Share"
+            "share_text": ""
+          }
+        },
+        "slide_BFBQ89": {
+          "type": "slide",
+          "settings": {
+            "author_image": "shopify://shop_images/r29_2.avif",
+            "author": "Author",
+            "time": "6h ago",
+            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
+            "image": "shopify://shop_images/25ece93b-87e3-4166-b988-3934a22f7556_675x1200_c8a44e0d-4e2e-42f7-9dc6-72ad3821c042.webp",
+            "count_comments": "30",
+            "comment": "5 comments",
+            "like_text": "Like",
+            "comment_text": "Comment",
+            "share_text": ""
+          }
+        },
+        "slide_KNyF3N": {
+          "type": "slide",
+          "settings": {
+            "author": "Laura.SLN",
+            "time": "22h ago",
+            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.58.33_c8dc058e.jpg",
+            "count_comments": "1K",
+            "comment": "342 comments",
+            "like_text": "Like",
+            "comment_text": "Comment",
+            "share_text": ""
           }
         },
         "slide_7krkqX": {
@@ -1439,37 +1468,11 @@
             "time": "6h ago",
             "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
             "image": "shopify://shop_images/WhatsApp_Image_2025-10-13_a_22.58.52_18cecb09.jpg",
-            "count_comments": "30",
-            "comment": "30 comments",
+            "count_comments": "130",
+            "comment": "14 comments",
             "like_text": "Like",
             "comment_text": "Comment",
-            "share_text": "Share"
-          }
-        },
-        "slide_a3bMbw": {
-          "type": "slide",
-          "settings": {
-            "author": "Author",
-            "time": "6h ago",
-            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
-            "count_comments": "30",
-            "comment": "30 comments",
-            "like_text": "Like",
-            "comment_text": "Comment",
-            "share_text": "Share"
-          }
-        },
-        "slide_BFBQ89": {
-          "type": "slide",
-          "settings": {
-            "author": "Author",
-            "time": "6h ago",
-            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
-            "count_comments": "30",
-            "comment": "30 comments",
-            "like_text": "Like",
-            "comment_text": "Comment",
-            "share_text": "Share"
+            "share_text": ""
           }
         },
         "slide_g9bGWB": {
@@ -1478,6 +1481,7 @@
             "author": "Author",
             "time": "6h ago",
             "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
+            "image": "shopify://shop_images/b5213ff1-0009-467d-b955-b046e8f63a57.webp",
             "count_comments": "30",
             "comment": "30 comments",
             "like_text": "Like",
@@ -1487,10 +1491,10 @@
         }
       },
       "block_order": [
-        "slide_KNyF3N",
-        "slide_7krkqX",
         "slide_a3bMbw",
         "slide_BFBQ89",
+        "slide_KNyF3N",
+        "slide_7krkqX",
         "slide_g9bGWB"
       ],
       "name": "SS - Testimonials #20",
