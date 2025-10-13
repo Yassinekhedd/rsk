@@ -976,7 +976,7 @@
           "type": "tab",
           "settings": {
             "title": "Beschreibung",
-            "content": "<p>Use this text to share information about your brand with your customers.</p>",
+            "content": "<p>Unser eleganter schwarzer Body kombiniert luxuriöse Spitze mit einer schmeichelnden Passform, die jede Figur perfekt betont.<br/>Das weiche, elastische Material fühlt sich angenehm auf der Haut an und sorgt für maximalen Komfort, während das raffinierte Design einen Hauch von Sinnlichkeit verleiht.<br/>Perfekt für besondere Anlässe oder als stilvolles Alltagsstück – dieser Body lässt dich dich selbstbewusst und unwiderstehlich fühlen.</p>",
             "page": ""
           }
         },
@@ -984,7 +984,7 @@
           "type": "tab",
           "settings": {
             "title": "Lieferung & Versand",
-            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "content": "<p>Wir versenden alle Bestellungen kostenlos weltweit 🌍<br/>Bearbeitungszeit: 1–2 Werktage<br/>Lieferzeit: 5–10 Werktage (abhängig vom Zielland)<br/>Sobald dein Paket versendet wurde, erhältst du eine Sendungsverfolgungsnummer, damit du deine Bestellung jederzeit verfolgen kannst.</p>",
             "page": ""
           }
         },
@@ -992,7 +992,7 @@
           "type": "tab",
           "settings": {
             "title": "Rückgaberecht",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "content": "<p>Deine Zufriedenheit ist uns wichtig 💛<br/>Du kannst ungetragene Artikel innerhalb von 30 Tagen nach Erhalt zurücksenden oder umtauschen.<br/>Falls du ein Problem mit deiner Bestellung hast, kontaktiere uns einfach – wir finden immer eine unkomplizierte Lösung.</p>",
             "page": ""
           }
         }
