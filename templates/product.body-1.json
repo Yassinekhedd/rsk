@@ -347,47 +347,6 @@
         "lazy": true
       }
     },
-    "slideshow_6hVpyT": {
-      "type": "slideshow",
-      "blocks": {
-        "image_wB7TXM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Copie_de_100_Templates_di_Creative_per_Ads_2.png",
-            "content_max_width": 400,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_wB7TXM"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
     "slideshow_kKMgc9": {
       "type": "slideshow",
       "blocks": {
@@ -415,6 +374,47 @@
       },
       "block_order": [
         "image_YwUCWY"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_6hVpyT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_wB7TXM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_100_Templates_di_Creative_per_Ads_2.png",
+            "content_max_width": 400,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wB7TXM"
       ],
       "name": "Slideshow",
       "settings": {
@@ -1572,7 +1572,6 @@
     "slideshow_9zgxEd",
     "slideshow_aYX3bV",
     "video_brid_AjBwyG",
-    "slideshow_6hVpyT",
     "slideshow_kKMgc9",
     "slideshow_DeYtL3",
     "scrolling_logo_hdRreL",
@@ -1583,6 +1582,7 @@
     "main",
     "176031679495d752a3",
     "tabs_ykjDmn",
+    "slideshow_6hVpyT",
     "video_slider_EMXd4j",
     "scrolling_logo_DxrXVc",
     "instagram_fRaFXh",
