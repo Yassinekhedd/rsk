@@ -1305,6 +1305,7 @@
       "block_order": [
         "instafeed_mi84Yq"
       ],
+      "disabled": true,
       "name": "SS - Instafeed #3",
       "settings": {
         "heading": "",
