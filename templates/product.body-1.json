@@ -1421,7 +1421,7 @@
         "slide_a3bMbw": {
           "type": "slide",
           "settings": {
-            "author": "Author",
+            "author": "katarina.deg",
             "time": "24h ago",
             "text": "<p>Ich liebe diesen Body! 😍 Die Qualität ist top und der Stoff fühlt sich richtig angenehm auf der Haut an. Werde definitiv noch einen bestellen!</p>",
             "image": "shopify://shop_images/83cd741b-0f86-4d3d-9fa3-f3240e8845ad_647x1151_23661fe8-a520-4701-b3b9-5ccabffc2622.webp",
@@ -1436,7 +1436,7 @@
           "type": "slide",
           "settings": {
             "author_image": "shopify://shop_images/r29_2.avif",
-            "author": "Author",
+            "author": "estelle.fhl",
             "time": "6h ago",
             "text": "<p>Super schön und sehr elegant! Kam schnell an und sieht genau so aus wie auf den Bildern. Ich bin begeistert 💕</p>",
             "image": "shopify://shop_images/25ece93b-87e3-4166-b988-3934a22f7556_675x1200_c8a44e0d-4e2e-42f7-9dc6-72ad3821c042.webp",
@@ -1464,7 +1464,7 @@
         "slide_7krkqX": {
           "type": "slide",
           "settings": {
-            "author": "Author",
+            "author": "hindR.dhl",
             "time": "6h ago",
             "text": "<p>Mega bequem und sexy zugleich! Meine Freundin hat mich gefragt, wo ich den gekauft habe 😂 Wirklich top Produkt.</p>",
             "image": "shopify://shop_images/WhatsApp_Image_2025-10-13_a_22.58.52_18cecb09.jpg",
@@ -1478,7 +1478,7 @@
         "slide_g9bGWB": {
           "type": "slide",
           "settings": {
-            "author": "Author",
+            "author": "Marion_kh",
             "time": "6h ago",
             "text": "<p>Der Body ist wunderschön verarbeitet, nichts kratzt oder zwickt. Lieferung war auch schnell. Ich trage ihn ständig unter Blusen – perfekt!</p>",
             "image": "shopify://shop_images/b5213ff1-0009-467d-b955-b046e8f63a57.webp",
@@ -1499,7 +1499,7 @@
       ],
       "name": "SS - Testimonials #20",
       "settings": {
-        "heading": "<h2>Testimonials #20</h2>",
+        "heading": "",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 32,
@@ -1507,18 +1507,18 @@
         "heading_height": 100,
         "heading_align": "center",
         "heading_align_mobile": "center",
-        "slider_view": 3,
-        "slider_view_mobile": 1.3,
-        "slider_gap": 32,
-        "slider_gap_mobile": 24,
+        "slider_view": 2,
+        "slider_view_mobile": 1.1,
+        "slider_gap": 10,
+        "slider_gap_mobile": 26,
         "slider_mt": 0,
         "slider_mt_mobile": 0,
         "slide_padding_horizontal": 16,
-        "slide_padding_horizontal_mobile": 16,
+        "slide_padding_horizontal_mobile": 14,
         "slide_padding_vertical": 12,
         "slide_padding_vertical_mobile": 12,
         "slide_radius": 12,
-        "slide_border_thickness": 1,
+        "slide_border_thickness": 0,
         "slide_shadow": true,
         "slide_content_align": "left",
         "slide_content_align_mobile": "left",
@@ -1560,7 +1560,7 @@
         "comment_mt": 10,
         "comment_mt_mobile": 10,
         "comments_icon_size": 18,
-        "comments_icon_size_mobile": 18,
+        "comments_icon_size_mobile": 16,
         "buttons_border_thickness": 1,
         "buttons_mt": 10,
         "buttons_mt_mobile": 10,
