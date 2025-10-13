@@ -1447,10 +1447,24 @@
             "share_text": ""
           }
         },
+        "slide_g9bGWB": {
+          "type": "slide",
+          "settings": {
+            "author": "Marion_kh",
+            "time": "6h ago",
+            "text": "<p>Der Body ist wunderschön verarbeitet, nichts kratzt oder zwickt. Lieferung war auch schnell. Ich trage ihn ständig unter Blusen – perfekt!</p>",
+            "image": "shopify://shop_images/b5213ff1-0009-467d-b955-b046e8f63a57.webp",
+            "count_comments": "84",
+            "comment": "13 comments",
+            "like_text": "Like",
+            "comment_text": "Comment",
+            "share_text": ""
+          }
+        },
         "slide_KNyF3N": {
           "type": "slide",
           "settings": {
-            "author": "Laura.SLN",
+            "author": "NACHTglow",
             "time": "22h ago",
             "text": "<p>War zuerst skeptisch, aber ich bin total zufrieden. Passt perfekt und macht eine tolle Figur. Absolut empfehlenswert! ⭐⭐⭐⭐⭐</p>",
             "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.58.33_c8dc058e.jpg",
@@ -1474,28 +1488,14 @@
             "comment_text": "Comment",
             "share_text": ""
           }
-        },
-        "slide_g9bGWB": {
-          "type": "slide",
-          "settings": {
-            "author": "Marion_kh",
-            "time": "6h ago",
-            "text": "<p>Der Body ist wunderschön verarbeitet, nichts kratzt oder zwickt. Lieferung war auch schnell. Ich trage ihn ständig unter Blusen – perfekt!</p>",
-            "image": "shopify://shop_images/b5213ff1-0009-467d-b955-b046e8f63a57.webp",
-            "count_comments": "84",
-            "comment": "13 comments",
-            "like_text": "Like",
-            "comment_text": "Comment",
-            "share_text": ""
-          }
         }
       },
       "block_order": [
         "slide_a3bMbw",
         "slide_BFBQ89",
+        "slide_g9bGWB",
         "slide_KNyF3N",
-        "slide_7krkqX",
-        "slide_g9bGWB"
+        "slide_7krkqX"
       ],
       "name": "SS - Testimonials #20",
       "settings": {
