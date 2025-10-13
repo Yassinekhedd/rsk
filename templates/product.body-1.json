@@ -643,7 +643,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "hide_sold_out_variants": false,
+            "hide_sold_out_variants": true,
             "stack_blocks": true,
             "selector_mode": "block",
             "color_mode": "block",
@@ -775,25 +775,6 @@
     },
     "176031679495d752a3": {
       "type": "apps",
-      "blocks": {
-        "amose_bundle_benefits_DrPkeq": {
-          "type": "shopify://apps/amose-bundle/blocks/benefits/50476a12-3ce4-457e-ba71-230751f626b6",
-          "settings": {
-            "benefit_1": "No Acne in 60 days or money back",
-            "benefit_2": "97% of customers got Acne free",
-            "benefit_3": "Botanical Buffet: Made with Arctic plants",
-            "benefit_4": "For Females/Males & Adults/Teens",
-            "font_size_desktop": 16,
-            "font_size_mobile": 14,
-            "text_color": "#000000",
-            "checkmark_bg_color": "#D4CFDA",
-            "checkmark_color": "#FFFFFF"
-          }
-        }
-      },
-      "block_order": [
-        "amose_bundle_benefits_DrPkeq"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
