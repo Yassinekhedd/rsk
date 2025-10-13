@@ -176,6 +176,32 @@
             "info_color": "#ffb71b"
           }
         },
+        "video_HPjH9F": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Vidéo 2025-10-07 à 22.08.51_499b04c5.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "autoplay": true,
+            "loop": true,
+            "info": "",
+            "url": "",
+            "info_color": "#ffb71b"
+          }
+        },
+        "video_j4FxJb": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Vidéo 2025-10-07 à 22.08.51_499b04c5.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "autoplay": true,
+            "loop": true,
+            "info": "",
+            "url": "",
+            "info_color": "#ffb71b"
+          }
+        },
         "video_MRyPxE": {
           "type": "video",
           "disabled": true,
@@ -233,6 +259,8 @@
         "video_tmRgQ8",
         "video_LbcWq7",
         "video_VxtCdM",
+        "video_HPjH9F",
+        "video_j4FxJb",
         "video_MRyPxE",
         "video_QQMPd4",
         "video_yWGMyR",
