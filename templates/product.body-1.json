@@ -642,6 +642,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": true,
@@ -729,6 +730,12 @@
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Product Badges</title>\n    <style>\n        .unique-badge-container-xyz123 {\n            display: flex;\n            gap: 5px;\n        }\n\n        .unique-badge-abc456 {\n            display: flex;\n            align-items: center;\n            padding: 3px 7px;\n            border-radius: 12px;\n            font-size: 10px;\n            font-weight: bold;\n            color: #000;\n            background-color: rgba(0, 0, 0, 0.05);\n        }\n\n        .unique-badge-abc456 img {\n            margin-right: 3px;\n            filter: brightness(0.5);\n        }\n    </style>\n</head>\n<body class=\"unique-body-789def\">\n    <div class=\"unique-badge-container-xyz123\">\n        <div class=\"unique-badge-abc456\">\n            <img src=\"https://www.svgrepo.com/show/474295/plane.svg\" alt=\"Fast Shipping\" width=\"12\" height=\"12\">\n            Fast Shipping\n        </div>\n        <div class=\"unique-badge-abc456\">\n            <img src=\"https://www.svgrepo.com/show/486865/support.svg\" alt=\"24/7 Support\" width=\"12\" height=\"12\">\n            24/7 Support\n        </div>\n        <div class=\"unique-badge-abc456\">\n            <img src=\"https://www.svgrepo.com/show/457232/return.svg\" alt=\"30 Days Return\" width=\"12\" height=\"12\">\n            30 Days Return\n        </div>\n    </div>\n</body>\n</html>"
           }
+        },
+        "kaching_bundles_app_block_ixpGCh": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "half-lace-shapewear-bodysuit"
+          }
         }
       },
       "block_order": [
@@ -753,7 +760,8 @@
         "buy_buttons",
         "section_store_block_benefits_boxes_2_mYAHjX",
         "section_store_block_product_info_wrapper_3zE6Gy",
-        "liquid_LqETAx"
+        "liquid_LqETAx",
+        "kaching_bundles_app_block_ixpGCh"
       ],
       "settings": {
         "full_width": true,
