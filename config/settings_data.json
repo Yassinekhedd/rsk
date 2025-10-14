@@ -76,11 +76,6 @@
         "disabled": true,
         "settings": {}
       },
-      "9589668175390395553": {
-        "type": "shopify://apps/amose-bundle/blocks/quantity_options/50476a12-3ce4-457e-ba71-230751f626b6",
-        "disabled": false,
-        "settings": {}
-      },
       "15557474716127144420": {
         "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
         "disabled": false,
