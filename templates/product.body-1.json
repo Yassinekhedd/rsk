@@ -9,14 +9,66 @@
  */
 {
   "sections": {
+    "product_countdown_GBBXTV": {
+      "type": "Product-countdown",
+      "blocks": {
+        "text_FPpmP6": {
+          "type": "text",
+          "settings": {
+            "heading": "🔥 Hurry up! 🔥",
+            "color": "#ffffff",
+            "font_size": 24,
+            "subheading": "Sale ends in:",
+            "subheading_color": "#f1f1f1",
+            "subheading_font_size": 12
+          }
+        },
+        "timer_77Ca8H": {
+          "type": "timer",
+          "settings": {
+            "year": "2024",
+            "month": "01",
+            "day": "01",
+            "hour": "00",
+            "minute": "00",
+            "x_hours_left": 0,
+            "day_text": "Days",
+            "hour_text": "Hrs",
+            "minute_text": "Mins",
+            "second_text": "Secs",
+            "hide_widget_on_completed": false,
+            "color": "#F2DF00",
+            "font_size_number": 20,
+            "color_text": "#f1f1f1",
+            "font_size_text": 10,
+            "rtl": false
+          }
+        }
+      },
+      "block_order": [
+        "text_FPpmP6",
+        "timer_77Ca8H"
+      ],
+      "name": "SS - Product Countdown Timer",
+      "settings": {
+        "countdown_position": "below_buy",
+        "background": "",
+        "background-color": "#000000",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "border_radius": 0
+      }
+    },
     "slideshow_M6AGEG": {
       "type": "slideshow",
       "blocks": {
         "image_EKXm9R": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_15.png",
-            "mobile_image": "shopify://shop_images/Design_sans_titre_15.png",
+            "image": "shopify://shop_images/Design_sans_titre_16.png",
+            "mobile_image": "shopify://shop_images/Design_sans_titre_16.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -95,32 +147,6 @@
     },
     "slideshow_aYX3bV": {
       "type": "slideshow",
-      "blocks": {
-        "image_xU98hW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.54.59_91cacea9.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_xU98hW"
-      ],
       "name": "Slideshow",
       "settings": {
         "full_width": true,
@@ -134,289 +160,8 @@
         "background_gradient": ""
       }
     },
-    "video_brid_AjBwyG": {
-      "type": "video-brid",
-      "blocks": {
-        "video_tmRgQ8": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/8ff60853751246138c71e4de009eb51a.HD-1080p-7.2Mbps-51371041.mov",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "autoplay": true,
-            "loop": true,
-            "info": "",
-            "url": "",
-            "info_color": "#ffb3ba"
-          }
-        },
-        "video_LbcWq7": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/352d77e65eb445e9a02d0dcfcfe51004.HD-1080p-7.2Mbps-41029925.mov",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "autoplay": true,
-            "loop": true,
-            "info": "",
-            "url": "",
-            "info_color": "#c2d6ff"
-          }
-        },
-        "video_j4FxJb": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/WhatsApp Vidéo 2025-10-07 à 22.08.51_499b04c5.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "autoplay": true,
-            "loop": true,
-            "info": "",
-            "url": "",
-            "info_color": "#ffb71b"
-          }
-        },
-        "video_EqNchQ": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/8ff60853751246138c71e4de009eb51a.HD-1080p-7.2Mbps-51371041.mov",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "autoplay": true,
-            "loop": true,
-            "info": "",
-            "url": "",
-            "info_color": "#ffb3ba"
-          }
-        },
-        "video_YcdbLA": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/352d77e65eb445e9a02d0dcfcfe51004.HD-1080p-7.2Mbps-41029925.mov",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "autoplay": true,
-            "loop": true,
-            "info": "",
-            "url": "",
-            "info_color": "#c2d6ff"
-          }
-        },
-        "video_VxtCdM": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/WhatsApp Vidéo 2025-10-07 à 22.08.51_499b04c5.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "autoplay": true,
-            "loop": true,
-            "info": "",
-            "url": "",
-            "info_color": "#ffb71b"
-          }
-        },
-        "video_MRyPxE": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "autoplay": true,
-            "loop": true,
-            "info": "@socialhandle",
-            "url": "",
-            "info_color": "#ffffff"
-          }
-        },
-        "video_QQMPd4": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "autoplay": true,
-            "loop": true,
-            "info": "@socialhandle",
-            "url": "",
-            "info_color": "#ffffff"
-          }
-        },
-        "video_yWGMyR": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "autoplay": true,
-            "loop": true,
-            "info": "@socialhandle",
-            "url": "",
-            "info_color": "#c2d6ff"
-          }
-        },
-        "video_chLQtq": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "autoplay": true,
-            "loop": true,
-            "info": "@socialhandle",
-            "url": "",
-            "info_color": "#ffb3ba"
-          }
-        }
-      },
-      "block_order": [
-        "video_tmRgQ8",
-        "video_LbcWq7",
-        "video_j4FxJb",
-        "video_EqNchQ",
-        "video_YcdbLA",
-        "video_VxtCdM",
-        "video_MRyPxE",
-        "video_QQMPd4",
-        "video_yWGMyR",
-        "video_chLQtq"
-      ],
-      "name": "SS - Video Grid (Social Media) #2",
-      "settings": {
-        "heading": "",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 22,
-        "heading_size_mobile": 20,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_align_mobile": "center",
-        "sub_heading": "",
-        "sub_heading_custom": false,
-        "sub_heading_font": "josefin_sans_n4",
-        "sub_heading_size": 20,
-        "sub_heading_size_mobile": 18,
-        "sub_heading_height": 150,
-        "sub_heading_align": "center",
-        "sub_heading_align_mobile": "center",
-        "sub_heading_mt": 0,
-        "slider_view": 3,
-        "slider_view_mobile": 2,
-        "slider_gap": 0,
-        "slider_gap_mobile": 0,
-        "slider_mt": 0,
-        "card_padding_vertical": 0,
-        "card_padding_vertical_mobile": 0,
-        "card_padding_horizontal": 0,
-        "card_padding_horizontal_mobile": 0,
-        "card_radius": 20,
-        "card_border_thickness": 0,
-        "video_radius": 20,
-        "video_border_thickness": 0,
-        "video_ratio": "portrait",
-        "video_ratio_mobile": "portrait",
-        "radius_top": false,
-        "border_bottom": false,
-        "content_padding_vertical": 10,
-        "content_padding_vertical_mobile": 0,
-        "content_padding_horizontal": 10,
-        "content_padding_horizontal_mobile": 4,
-        "content_radius": 0,
-        "content_border_thickness": 0,
-        "info_custom": false,
-        "info_font": "josefin_sans_n4",
-        "info_size": 16,
-        "info_size_mobile": 44,
-        "info_height": 130,
-        "info_align": "center",
-        "info_align_mobile": "center",
-        "action_size": 10,
-        "action_size_mobile": 10,
-        "action_icon_size": 50,
-        "action_icon_size_mobile": 50,
-        "action_border_thickness": 0,
-        "action_position_mobile": "top_left",
-        "action_position": "top_left",
-        "hide_action": false,
-        "navigation_gap": 0,
-        "navigation_gap_mobile": 0,
-        "navigation_mt": 0,
-        "arrow_size": 50,
-        "arrow_size_mobile": 50,
-        "arrow_icon_size": 16,
-        "arrow_icon_size_mobile": 16,
-        "arrow_border_thickness": 0,
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": false,
-        "pagination_custom": false,
-        "pagination_font": "josefin_sans_n4",
-        "pagination_size": 16,
-        "pagination_size_mobile": 16,
-        "pagination_height": 100,
-        "pagination_show_desktop": true,
-        "pagination_show_mobile": false,
-        "card_bg_color": "#2f222b",
-        "card_border_color": "#000000",
-        "video_border_color": "#000000",
-        "content_bg_color": "#2f222b",
-        "content_border_color": "#000000",
-        "action_bg_color": "#ffffff",
-        "action_bg_hover_color": "#fdf0ea",
-        "action_border_color": "#000000",
-        "action_border_hover_color": "#000000",
-        "action_icon_color": "#121212",
-        "action_icon_hover_color": "#121212",
-        "arrow_color": "#000000",
-        "arrow_hover_color": "#000000",
-        "arrow_bg_color": "#c2d6ff",
-        "arrow_bg_hover_color": "#c2d6ff",
-        "arrow_border_color": "#000000",
-        "arrow_border_hover_color": "#000000",
-        "pagination_color": "#000000",
-        "heading_color": "#000000",
-        "sub_heading_color": "#000000",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
     "slideshow_kKMgc9": {
       "type": "slideshow",
-      "blocks": {
-        "image_YwUCWY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-08_a_20.40.45_0af93f2a.jpg",
-            "content_max_width": 760,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_YwUCWY"
-      ],
       "name": "Slideshow",
       "settings": {
         "full_width": true,
@@ -432,32 +177,6 @@
     },
     "slideshow_DeYtL3": {
       "type": "slideshow",
-      "blocks": {
-        "image_7wDwhm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Ajouter_un_titre_4.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_7wDwhm"
-      ],
       "name": "Slideshow",
       "settings": {
         "full_width": true,
@@ -664,32 +383,6 @@
     },
     "slideshow_GDqrpF": {
       "type": "slideshow",
-      "blocks": {
-        "image_n8EddJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-08_a_21.19.23_152a6dc1.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_n8EddJ"
-      ],
       "name": "Slideshow",
       "settings": {
         "full_width": true,
@@ -752,33 +445,6 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "liquid_834F4g": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n        .top-selling-badge {\n            display: flex;\n            align-items: center;\n            padding: 5px 10px;\n            border-radius: 8px;\n            font-family: Arial, sans-serif;\n            font-size: 12px;\n            color: #333;\n            background-color: #f3e5ff; /* Default background color */\n            height: 30px; /* Adjust height to fit content */\n        }\n\n        .top-selling-badge .badge-content {\n            display: none;\n            align-items: center;\n        }\n\n        .top-selling-badge .badge-content.active {\n            display: flex;\n        }\n\n        .badge-content svg {\n            margin-right: 8px;\n            width: 16px; /* Set icon size */\n            height: 16px; /* Set icon size */\n        }\n\n        .badge-content#text2 {\n            background-color: #ffe6e6; /* Very light red background for urgency */\n            color: #b30000; /* Darker red text color */\n        }\n    </style>\n    <title>Top Selling Product</title>\n</head>\n<body>\n    <div class=\"top-selling-badge\">\n        <div id=\"text1\" class=\"badge-content active\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">\n                <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.89 5.82 22 7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n            </svg>\n            <span>Top selling product in Kitchen Gadgets category</span>\n        </div>\n        <div id=\"text2\" class=\"badge-content\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">\n                <path d=\"M1 12a11 11 0 1 0 22 0 11 11 0 1 0-22 0zm11-8a1 1 0 0 1 1 1v6.586l4.293 4.293a1 1 0 0 1-1.414 1.414l-5.293-5.293a1 1 0 0 1-.293-.707V5a1 1 0 0 1 1-1z\"/>\n            </svg>\n            <span>Limited stock available, order now!</span>\n        </div>\n    </div>\n\n    <script>\n        let currentText = 1;\n        setInterval(() => {\n            const text1 = document.getElementById('text1');\n            const text2 = document.getElementById('text2');\n\n            if (currentText === 1) {\n                text1.classList.remove('active');\n                text2.classList.add('active');\n                document.querySelector('.top-selling-badge').style.backgroundColor = '#ffe6e6'; // Change background color\n            } else {\n                text2.classList.remove('active');\n                text1.classList.add('active');\n                document.querySelector('.top-selling-badge').style.backgroundColor = '#f3e5ff'; // Reset background color\n            }\n\n            currentText = currentText === 1 ? 2 : 1;\n        }, 3000); // Change every 3 seconds\n    </script>\n</body>\n</html>"
-          }
-        },
-        "section_store_block_coupon_code_cyTHaR": {
-          "type": "shopify://apps/section-store/blocks/block-coupon-code/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
-          "settings": {
-            "top_text": "Now: 10% OFF",
-            "bottom_text": "<p>Code: NACHT10</p>",
-            "text_size": 15,
-            "text_color": "#ffffff",
-            "coupon": "NACHT10",
-            "copy_text": "Copy",
-            "copied_text": "Copied!",
-            "button_color": "#000000",
-            "border": "none",
-            "border_thickness": 1,
-            "border_color": "#000000",
-            "radius": 18,
-            "bg_color": "#000000",
-            "padding_vertical": 4,
-            "padding_horizontal": 0,
-            "custom_css": ""
           }
         },
         "separator_wiYEyz": {
@@ -893,32 +559,6 @@
             "payment_button_text_color": ""
           }
         },
-        "section_store_block_benefits_boxes_2_mYAHjX": {
-          "type": "shopify://apps/section-store/blocks/block-benefits-boxes-2/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
-          "settings": {
-            "cards_design": "vertical",
-            "cards_row": "3",
-            "card_align": "center",
-            "first_icon": "credit_card",
-            "first_title": "Pay later",
-            "first_sub_title": "up to 60 days",
-            "second_icon": "shield_check",
-            "second_title": "Quality",
-            "second_sub_title": "no‑hassle fixes",
-            "third_icon": "earth",
-            "third_title": "Shipping",
-            "third_sub_title": "worldwide free",
-            "all_size": 19,
-            "all_color": "#000000",
-            "border": "none",
-            "border_thickness": 1,
-            "border_color": "#000000",
-            "radius": 0,
-            "cards_bg_color": "",
-            "padding_vertical": 0,
-            "padding_horizontal": 0
-          }
-        },
         "section_store_block_product_info_wrapper_3zE6Gy": {
           "type": "shopify://apps/section-store/blocks/block-product-info-wrapper/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
           "disabled": true,
@@ -958,8 +598,6 @@
         "liquid_3yhj7n",
         "badges",
         "price",
-        "liquid_834F4g",
-        "section_store_block_coupon_code_cyTHaR",
         "separator_wiYEyz",
         "liquid_8Nrypj",
         "section_store_block_benefits_list_F8XW7n",
@@ -973,7 +611,6 @@
         "kaching_bundles_app_block_ixpGCh",
         "liquid_fEKRFp",
         "buy_buttons",
-        "section_store_block_benefits_boxes_2_mYAHjX",
         "section_store_block_product_info_wrapper_3zE6Gy",
         "liquid_LqETAx"
       ],
@@ -1011,84 +648,8 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "accordion_content_KK7MJM": {
-      "type": "accordion-content",
-      "blocks": {
-        "item_CVPwak": {
-          "type": "item",
-          "settings": {
-            "title": "🖤 Beschreibung",
-            "content": "<p>Unser eleganter schwarzer Body kombiniert luxuriöse Spitze mit einer schmeichelnden Passform, die jede Figur perfekt betont.<br/>Das weiche, elastische Material fühlt sich angenehm auf der Haut an und sorgt für maximalen Komfort, während das raffinierte Design einen Hauch von Sinnlichkeit verleiht.<br/>Perfekt für besondere Anlässe oder als stilvolles Alltagsstück – dieser Body lässt dich dich selbstbewusst und unwiderstehlich fühlen.</p>"
-          }
-        },
-        "item_Gg3MiA": {
-          "type": "item",
-          "settings": {
-            "title": "🚚 Lieferung & Versand",
-            "content": "<p>Wir versenden alle Bestellungen kostenlos weltweit 🌍<br/>Bearbeitungszeit: 1–2 Werktage<br/>Lieferzeit: 5–10 Werktage (abhängig vom Zielland)<br/>Sobald dein Paket versendet wurde, erhältst du eine Sendungsverfolgungsnummer, damit du deine Bestellung jederzeit verfolgen kannst.</p>"
-          }
-        },
-        "item_k8C4rU": {
-          "type": "item",
-          "settings": {
-            "title": "🔁 Rückgaberecht",
-            "content": "<p>Deine Zufriedenheit ist uns wichtig 💛<br/>Du kannst ungetragene Artikel innerhalb von 30 Tagen nach Erhalt zurücksenden oder umtauschen.<br/>Falls du ein Problem mit deiner Bestellung hast, kontaktiere uns einfach – wir finden immer eine unkomplizierte Lösung.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_CVPwak",
-        "item_Gg3MiA",
-        "item_k8C4rU"
-      ],
-      "name": "Accordion content",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
     "slideshow_DxGecb": {
       "type": "slideshow",
-      "blocks": {
-        "image_gXLjFB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-14_a_16.05.09_d7f18a12.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_gXLjFB"
-      ],
       "name": "Slideshow",
       "settings": {
         "full_width": true,
@@ -1098,38 +659,12 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
     "slideshow_6hVpyT": {
       "type": "slideshow",
-      "blocks": {
-        "image_wB7TXM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Ajouter_un_titre_5.png",
-            "content_max_width": 400,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_wB7TXM"
-      ],
       "name": "Slideshow",
       "settings": {
         "full_width": true,
@@ -1551,213 +1086,6 @@
         "lazy": true
       }
     },
-    "testi_20_LGCzgw": {
-      "type": "testi-20",
-      "blocks": {
-        "slide_a3bMbw": {
-          "type": "slide",
-          "settings": {
-            "author": "katarina.deg",
-            "time": "24h ago",
-            "text": "<p>Ich liebe diesen Body! 😍 Die Qualität ist top und der Stoff fühlt sich richtig angenehm auf der Haut an. Werde definitiv noch einen bestellen!</p>",
-            "image": "shopify://shop_images/83cd741b-0f86-4d3d-9fa3-f3240e8845ad_647x1151_23661fe8-a520-4701-b3b9-5ccabffc2622.webp",
-            "count_comments": "3K",
-            "comment": "830 comments",
-            "like_text": "Like",
-            "comment_text": "Comment",
-            "share_text": ""
-          }
-        },
-        "slide_BFBQ89": {
-          "type": "slide",
-          "settings": {
-            "author_image": "shopify://shop_images/r29_2.avif",
-            "author": "estelle.fhl",
-            "time": "6h ago",
-            "text": "<p>Super schön und sehr elegant! Kam schnell an und sieht genau so aus wie auf den Bildern. Ich bin begeistert 💕</p>",
-            "image": "shopify://shop_images/25ece93b-87e3-4166-b988-3934a22f7556_675x1200_c8a44e0d-4e2e-42f7-9dc6-72ad3821c042.webp",
-            "count_comments": "30",
-            "comment": "5 comments",
-            "like_text": "Like",
-            "comment_text": "Comment",
-            "share_text": ""
-          }
-        },
-        "slide_g9bGWB": {
-          "type": "slide",
-          "settings": {
-            "author": "Marion_kh",
-            "time": "6h ago",
-            "text": "<p>Der Body ist wunderschön verarbeitet, nichts kratzt oder zwickt. Lieferung war auch schnell. Ich trage ihn ständig unter Blusen – perfekt!</p>",
-            "image": "shopify://shop_images/b5213ff1-0009-467d-b955-b046e8f63a57.webp",
-            "count_comments": "84",
-            "comment": "13 comments",
-            "like_text": "Like",
-            "comment_text": "Comment",
-            "share_text": ""
-          }
-        },
-        "slide_KNyF3N": {
-          "type": "slide",
-          "settings": {
-            "author": "NACHTglow",
-            "time": "22h ago",
-            "text": "<p>War zuerst skeptisch, aber ich bin total zufrieden. Passt perfekt und macht eine tolle Figur. Absolut empfehlenswert! ⭐⭐⭐⭐⭐</p>",
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-07_a_13.58.33_c8dc058e.jpg",
-            "count_comments": "1K",
-            "comment": "342 comments",
-            "like_text": "Like",
-            "comment_text": "Comment",
-            "share_text": ""
-          }
-        },
-        "slide_7krkqX": {
-          "type": "slide",
-          "settings": {
-            "author": "hindR.dhl",
-            "time": "6h ago",
-            "text": "<p>Mega bequem und sexy zugleich! Meine Freundin hat mich gefragt, wo ich den gekauft habe 😂 Wirklich top Produkt.</p>",
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-13_a_22.58.52_18cecb09.jpg",
-            "count_comments": "130",
-            "comment": "14 comments",
-            "like_text": "Like",
-            "comment_text": "Comment",
-            "share_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_a3bMbw",
-        "slide_BFBQ89",
-        "slide_g9bGWB",
-        "slide_KNyF3N",
-        "slide_7krkqX"
-      ],
-      "name": "SS - Testimonials #20",
-      "settings": {
-        "heading": "",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 32,
-        "heading_size_mobile": 16,
-        "heading_height": 100,
-        "heading_align": "center",
-        "heading_align_mobile": "center",
-        "slider_view": 2,
-        "slider_view_mobile": 1.1,
-        "slider_gap": 10,
-        "slider_gap_mobile": 26,
-        "slider_mt": 0,
-        "slider_mt_mobile": 0,
-        "slide_padding_horizontal": 16,
-        "slide_padding_horizontal_mobile": 14,
-        "slide_padding_vertical": 12,
-        "slide_padding_vertical_mobile": 12,
-        "slide_radius": 12,
-        "slide_border_thickness": 0,
-        "slide_shadow": true,
-        "slide_content_align": "left",
-        "slide_content_align_mobile": "left",
-        "author_wrapper_gap": 10,
-        "author_wrapper_gap_mobile": 10,
-        "author_image_width": 40,
-        "author_image_width_mobile": 40,
-        "author_image_radius": 100,
-        "author_custom": false,
-        "author_font": "josefin_sans_n4",
-        "author_size": 16,
-        "author_size_mobile": 15,
-        "author_height": 130,
-        "author_time_custom": false,
-        "author_time_font": "josefin_sans_n4",
-        "author_time_size": 13,
-        "author_time_size_mobile": 13,
-        "author_time_height": 130,
-        "author_time_mt": 2,
-        "author_time_mt_mobile": 2,
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 16,
-        "text_size_mobile": 15,
-        "text_height": 150,
-        "text_mt": 10,
-        "text_mt_mobile": 10,
-        "image_ratio": "square",
-        "image_ratio_mobile": "square",
-        "image_radius": 0,
-        "image_mt": 10,
-        "image_mt_mobile": 10,
-        "image_full_width": true,
-        "comment_custom": false,
-        "comment_font": "josefin_sans_n4",
-        "comment_size": 14,
-        "comment_size_mobile": 14,
-        "comment_height": 130,
-        "comment_mt": 10,
-        "comment_mt_mobile": 10,
-        "comments_icon_size": 18,
-        "comments_icon_size_mobile": 16,
-        "buttons_border_thickness": 1,
-        "buttons_mt": 10,
-        "buttons_mt_mobile": 10,
-        "button_icon_size": 16,
-        "button_icon_size_mobile": 16,
-        "button_text_custom": false,
-        "button_text_font": "josefin_sans_n4",
-        "button_text_size": 14,
-        "button_text_size_mobile": 14,
-        "button_text_height": 130,
-        "arrow_size": 48,
-        "arrow_size_mobile": 38,
-        "arrow_icon_size": 10,
-        "arrow_icon_size_mobile": 8,
-        "arrow_border_thickness": 0,
-        "arrow_radius": 100,
-        "arrow_hover_effect": "color",
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": false,
-        "dots_size": 6,
-        "dots_size_mobile": 6,
-        "dots_mt": 20,
-        "dots_mt_mobile": 16,
-        "dots_show_desktop": true,
-        "dots_show_mobile": true,
-        "slide_bg_color": "#ffffff",
-        "slide_border_color": "#dfdfdf",
-        "slide_shadow_color": "#000000",
-        "author_color": "#000000",
-        "author_time_color": "#000000",
-        "text_color": "#000000",
-        "comment_color": "#000000",
-        "buttons_border_color": "#a4b0be",
-        "button_icon_color": "#000000",
-        "button_text_color": "#000000",
-        "arrow_color": "#7b7b7b",
-        "arrow_hover_color": "#7b7b7b",
-        "arrow_bg_color": "#ebebeb",
-        "arrow_bg_hover_color": "#f5f5f5",
-        "arrow_border_color": "#c7c7c7",
-        "arrow_border_hover_color": "#c7c7c7",
-        "dots_color": "#000000",
-        "heading_color": "#000000",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 3,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 1300,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
-      }
-    },
     "1759846999165cca8a": {
       "type": "apps",
       "settings": {
@@ -1780,8 +1108,8 @@
       "settings": {
         "logo": "shopify://shop_images/N_2_8c39971c-75f1-4f66-8638-b87076e372a8.png",
         "logo_width": 140,
-        "logo_width_mobile": 210,
-        "first_menu_title": "Featured Links",
+        "logo_width_mobile": 170,
+        "first_menu_title": "",
         "first_menu": "",
         "second_menu_title": "Featured Links",
         "second_menu": "",
@@ -1886,35 +1214,13 @@
         "border_thickness": 0,
         "lazy": true
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "You may also like",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
     }
   },
   "order": [
+    "product_countdown_GBBXTV",
     "slideshow_M6AGEG",
     "slideshow_9zgxEd",
     "slideshow_aYX3bV",
-    "video_brid_AjBwyG",
     "slideshow_kKMgc9",
     "slideshow_DeYtL3",
     "scrolling_logo_hdRreL",
@@ -1924,16 +1230,13 @@
     "slideshow_GDqrpF",
     "main",
     "176031679495d752a3",
-    "accordion_content_KK7MJM",
     "slideshow_DxGecb",
     "slideshow_6hVpyT",
     "tabs_ykjDmn",
     "scrolling_logo_DxrXVc",
     "video_slider_EMXd4j",
     "instagram_fRaFXh",
-    "testi_20_LGCzgw",
     "1759846999165cca8a",
-    "footer_white_8A9hkp",
-    "related-products"
+    "footer_white_8A9hkp"
   ]
 }
